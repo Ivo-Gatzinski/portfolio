@@ -1,4 +1,4 @@
-# Blueprint for a Portfolio Website
+# Ivo Gatzinski's Portfolio
 ## Description
 - An exercise in creating a responsive, accessible website for hosting a portfolio of web apps. 
 - Practice skills in HTML and advanced CSS.

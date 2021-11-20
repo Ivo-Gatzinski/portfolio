@@ -1,18 +1,16 @@
 import React from 'react';
-import "./reset.css";
-import "./style.css";
 
 
-export default function Display() {
-    return (<div><section class="space-fill-1"></section>
-    <section class="subheader">
-      <div class="h1">
+export default function Header() {
+    return (<div><section className="space-fill-1"></section>
+    <section className="subheader">
+      <div className="h1">
         <h1>Ivo Gatzinski</h1>
       </div>
-      <div class="h2">
+      <div className="h2">
         <h2>Full Stack Web Developer</h2>
       </div>
-      <nav class="nav">
+      <nav className="nav">
         <ul>
           <li><a href="#work">Work</a></li>
           <li><a href="#contact">Contact</a></li>

@@ -18,18 +18,14 @@ html {
 
 body {
   font-family: "Syne Mono", monospace;
+  background-image: url("./images/blue_herring.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .space-fill-1 {
-  height: 100px;
+  height: 200px;
 }
-
-main {
-  background-image: url("./images/blue_herring.jpeg");
-  background-position: bottom;
-  background-size: stretch;
-}
-
 /*top headings*/
 .h1 {
   background-color: none;
@@ -52,6 +48,8 @@ main {
 .nav {
   padding-top: var(--small-pad);
   padding-bottom: var(--mini-pad);
+  
+
 }
 
 .nav li {
@@ -67,6 +65,11 @@ main {
 
 .contact-header {
   color: var(--light-turq);
+}
+
+.about {
+  color: white;
+  margin: 0 auto;
 }
 
 /*sample cards with transparent effect*/
@@ -246,7 +249,8 @@ a {
     padding: var(--small-pad);
   }
   .nav {
-    text-align: right;
+    display: flex;
+    justify-content: center;
     line-height: 200%;
   }
   .subheader {
@@ -351,7 +355,8 @@ taking into account about 5px padding */
   .nav {
     display: flex;
     flex: wrap;
-    justify-content: right;
+    justify-content: space-between;
+    font-size: 175%;
   }
 
   .subheader {

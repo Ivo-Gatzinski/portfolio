@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import displayAll from './static.js';
 
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <div id="component">{displayAll}</div>
     </div>
+    
   );
 }
 

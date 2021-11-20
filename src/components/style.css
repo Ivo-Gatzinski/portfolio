@@ -69,7 +69,17 @@ body {
 
 .about {
   color: white;
-  margin: 0 auto;
+  text-align: left;
+  background-color:  rgba(0, 29, 92, 0.3);
+  border-radius: 10px;
+  margin-left: 18.5%;
+  margin-right: 20%;
+  padding: 5px;
+}
+
+.bio {
+  font-size: 150%;
+  padding: 20px;
 }
 
 /*sample cards with transparent effect*/
@@ -182,7 +192,6 @@ a {
   .h3 {
     padding: var(--mini-pad);
     margin: var(--mini-pad) var(--mini-pad) var(--mini-pad) 0;
-    border-bottom: var(--dark-blue) solid 2px;
   }
 
   .nav li {
@@ -341,9 +350,8 @@ taking into account about 5px padding */
     display: flex;
     border-bottom: none;
     font-size: 200%;
-    width: 20%;
-    text-align: right;
-    justify-content: right;
+    text-align: left;
+    justify-content: space-between;
   }
 
   .nav li {

@@ -17,5 +17,5 @@ class displayAll extends React.Component {
     <React.StrictMode>
       {displayAll}
     </React.StrictMode>,
-    document.getElementById('container')
+    document.getElementById('component')
   );

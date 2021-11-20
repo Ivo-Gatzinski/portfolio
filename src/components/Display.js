@@ -1,5 +1,7 @@
 import React from 'react';
+import "./reset.css";
 import "./style.css";
+
 
 export default function Display() {
     return (<div><section class="space-fill-1"></section>

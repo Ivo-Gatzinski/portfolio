@@ -3,8 +3,8 @@ import Display from './components/Display.js';
 
 function App() {
   return (
-    <div><Display />
-    </div>
+    <main><Display />
+    </main>
     
   );
 }

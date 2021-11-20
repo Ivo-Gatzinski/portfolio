@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+
+/*thank you Erica for asking the question in OH*/
+html {
+  scroll-behavior: smooth;
+}
+
+/*set color and font variables*/
+:root {
+  --light-turq: #33c5ff;
+  --dark-grey: #363642;
+  --dark-blue: #094d9b;
+  --large-pad: 50px;
+  --small-pad: 10px;
+  --mini-pad: 5px;
+  --micro-pad: 2px;
+}
+
+body {
+  font-family: "Syne Mono", monospace;
+}
+
+.space-fill-1 {
+  height: 100px;
+}
+
+main {
+  background-image: url("./images/blue_herring.jpeg");
+  background-position: bottom;
+  background-size: stretch;
+}
+
+/*top headings*/
+.h1 {
+  background-color: none;
+  color: white;
+}
+.h2 {
+  color: white;
+}
+.subheader {
+  background-color: rgba(0, 29, 92, 0.3);
+  color: white;
+  border-radius: 10px;
+}
+
+.work-header {
+  color: var(--dark-blue);
+}
+
+/*navigation look*/
+.nav {
+  padding-top: var(--small-pad);
+  padding-bottom: var(--mini-pad);
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  padding-bottom: var(--micro-pad);
+  color: white;
+  text-decoration: none;
+  border-bottom: white solid var(--micro-pad);
+}
+
+.contact-header {
+  color: var(--light-turq);
+}
+
+/*sample cards with transparent effect*/
+.card {
+  background-size: 100%;
+  filter: none;
+  position: relative;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card:hover {
+  filter: none;
+}
+
+/*style titles inside cards*/
+.h4 {
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 10px;
+  padding: var(--mini-pad);
+  text-align: left;
+  position: absolute;
+  top: 5%;
+  left: var(--large-pad);
+  color: black;
+}
+
+.h4 h3 {
+  font-size: 150%;
+}
+
+.h4 p {
+  font-size: 100%;
+}
+
+/* individual backgrounds for cards */
+.surf {
+  background-image: url("./images/surf.jpeg");
+  background-color: skyblue;
+  filter: opacity(0.75);
+}
+
+.LED {
+  background-image: url("./images/planner.jpeg");
+  background-color: magenta;
+  filter: opacity(0.75);
+}
+
+.calc {
+  background-image: url("./images/key.jpeg");
+  background-color: grey;
+  filter: opacity(0.75);
+}
+
+.eight_ball {
+  background-image: url("./images/eight_ball.png");
+  background-color: white;
+  background-position: top;
+  filter: opacity(0.75);
+  background-size: 25%;
+}
+
+.run {
+  background-image: url("./images/run.jpeg");
+  background-color: green;
+  filter: opacity(0.75);
+}
+
+/*contact info links*/
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info-item {
+  margin: var(--small-pad);
+}
+
+.info-item a {
+  color: white;
+  text-decoration: none;
+  border-bottom: var(--light-turq) solid var(--micro-pad);
+  padding-bottom: var(--mini-pad);
+}
+
+/* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
+@media screen and (min-width: 175px) {
+  /*on mobile phones, set one column */
+  body {
+    flex-direction: column;
+  }
+
+  .h1 {
+    text-align: center;
+    font-size: 200%;
+    flex: 100%;
+  }
+
+  .h2 {
+    text-align: center;
+    font-size: 150%;
+    padding: var(--small-pad);
+  }
+a {
+  text-decoration: none;
+  color: black;
+}
+  .h3 {
+    padding: var(--mini-pad);
+    margin: var(--mini-pad) var(--mini-pad) var(--mini-pad) 0;
+    border-bottom: var(--dark-blue) solid 2px;
+  }
+
+  .nav li {
+    font-size: 125%;
+    padding: var(--small-pad);
+  }
+
+  .subheader {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: var(--large-pad);
+    justify-content: center;
+  }
+
+  .info {
+    display: block;
+    padding-left: 20%;
+  }
+
+  .info-item {
+    padding-block: 10px;
+  }
+
+  .samples {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: var(--small-pad);
+  }
+
+  .card {
+    height: 150px;
+    margin: var(--mini-pad);
+  }
+
+  .subheader {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3%;
+    margin-right: 4%;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .space-fill-2 {
+    height: 500px;
+  }
+
+  .h1 {
+    text-align: left;
+    font-size: 300%;
+  }
+
+  .h2 {
+    font-size: 200%;
+  }
+  .h3 {
+    font-size: 200%;
+  }
+
+  .nav li {
+    font-size: 125%;
+    padding: var(--small-pad);
+  }
+  .nav {
+    text-align: right;
+    line-height: 200%;
+  }
+  .subheader {
+    display: block;
+  }
+
+  .info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -20%;
+  }
+
+  .info-item {
+    margin: var(--small-pad);
+  }
+  /* ensures samples cards have space gap */
+  .samples {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: var(--mini-pad);
+  }
+  /* next two make sure first card is twice the size of the others,
+taking into account about 5px padding */
+
+  .card:first-child {
+    flex: 0 0 98%;
+    height: 250px;
+  }
+
+  .card {
+    flex: 0 0 48%;
+    height: 125px;
+  }
+
+  .subheader {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+}
+
+/* media query for larger screens */
+@media screen and (min-width: 992px) {
+  .info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .info-item {
+    padding: 20px;
+  }
+  .samples {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--mini-pad);
+    width: 65%;
+    margin: 0 auto;
+  }
+  .card:first-child {
+    flex: 0 0 97%;
+    height: 300px;
+  }
+
+  .card {
+    flex: 0 0 48%;
+    height: 150px;
+  }
+
+  .h1 {
+    display: flex;
+    font-size: 250%;
+    flex: wrap;
+    /* margin-left: 22%; */
+  }
+
+  .h2 {
+    font-size: 200%;
+    /* margin-left: 22%; */
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .h3 {
+    display: flex;
+    border-bottom: none;
+    font-size: 200%;
+    width: 20%;
+    text-align: right;
+    justify-content: right;
+  }
+
+  .nav li {
+    font-size: 100%;
+    padding: var(--mini-pad);
+    margin: var(--mini-pad);
+  }
+
+  .nav {
+    display: flex;
+    flex: wrap;
+    justify-content: right;
+  }
+
+  .subheader {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 18.5%;
+    margin-right: 20%;
+    padding: 10px;
+    justify-content: space-between;
+  }
+}

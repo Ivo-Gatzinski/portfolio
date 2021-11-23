@@ -1,11 +1,9 @@
 import React from 'react';
-import About from "./About.js";
 
 export default function Samples() {
     return (
         
 <section className="work" id="work">
-<About />
         <div className="samples">
           <figure className="surf card">
             <div className="h4">

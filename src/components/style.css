@@ -18,25 +18,22 @@ html {
 
 body {
   font-family: "Syne Mono", monospace;
-  background-image: url("./images/blue_herring.jpeg");
-  background-repeat: no-repeat;
+  /* background-image: url("./images/blue_herring.jpeg");
+  background-size: cover; */
+  background-image: url("./images/bg.jpg");
   background-size: cover;
-}
-
-.space-fill-1 {
-  height: 200px;
 }
 /*top headings*/
 .h1 {
   background-color: none;
-  color: white;
+  color: var(--dark-blue);
 }
 .h2 {
-  color: white;
+  color: var(--dark-blue);
 }
 .subheader {
-  background-color: rgba(0, 29, 92, 0.3);
-  color: white;
+  background: transparent;
+  color: var(--dark-blue);
   border-radius: 10px;
 }
 
@@ -44,23 +41,23 @@ body {
   color: var(--dark-blue);
 }
 
-/*navigation look*/
-.nav {
-  padding-top: var(--small-pad);
-  padding-bottom: var(--mini-pad);
-  
-
-}
-
 .nav li {
   display: inline;
 }
 
-.nav a {
+.nav button {
   padding-bottom: var(--micro-pad);
-  color: white;
+  color: var(--dark-blue);
   text-decoration: none;
-  border-bottom: white solid var(--micro-pad);
+  border: none;
+  background: none;
+}
+
+.nav button:hover {
+ color: green;
+ border: none;
+ cursor: pointer;
+ border-bottom: green solid var(--micro-pad);
 }
 
 .contact-header {
@@ -68,19 +65,24 @@ body {
 }
 
 .about {
-  color: white;
+  color:var(--dark-blue);
   text-align: left;
-  background-color:  rgba(0, 29, 92, 0.3);
+  background-color: transparent;
   border-radius: 10px;
-  margin-left: 18.5%;
-  margin-right: 20%;
   padding: 5px;
+  margin-top: 12px;
+}
+
+.bio_pic {
+  width: 25%;
 }
 
 .bio {
-  font-size: 150%;
+  display: flex;
+  font-size: 120%;
   padding: 20px;
 }
+
 
 /*sample cards with transparent effect*/
 .card {
@@ -161,10 +163,22 @@ body {
 }
 
 .info-item a {
-  color: white;
+  padding-bottom: var(--micro-pad);
+  color: var(--dark-blue);
   text-decoration: none;
-  border-bottom: var(--light-turq) solid var(--micro-pad);
-  padding-bottom: var(--mini-pad);
+  border: none;
+  background: none;
+}
+
+.info-item a:hover {
+ color: green;
+ border: none;
+ cursor: pointer;
+ border-bottom: green solid var(--micro-pad);
+}
+
+.skills {
+  width: 10rem;
 }
 
 /* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
@@ -173,7 +187,9 @@ body {
   body {
     flex-direction: column;
   }
-
+  .space-fill-1 {
+    height: 50px;
+  }
   .h1 {
     text-align: center;
     font-size: 200%;
@@ -192,6 +208,9 @@ a {
   .h3 {
     padding: var(--mini-pad);
     margin: var(--mini-pad) var(--mini-pad) var(--mini-pad) 0;
+    color: green;
+    font-size: 200%;
+    margin-left: 5%;
   }
 
   .nav li {
@@ -204,6 +223,21 @@ a {
     flex-wrap: wrap;
     padding-top: var(--large-pad);
     justify-content: center;
+  }
+  #resume {
+    display: block;
+  }
+
+  .bio_pic {
+    width: 200px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+  }
+  
+  .bio {
+    display: block;
+    font-size: 120%;
+    padding: 20px;
   }
 
   .info {
@@ -222,6 +256,11 @@ a {
     padding: var(--small-pad);
   }
 
+  .about {
+    margin: var(--small-pad);
+  }
+
+
   .card {
     height: 150px;
     margin: var(--mini-pad);
@@ -238,7 +277,7 @@ a {
 
 @media screen and (min-width: 768px) {
   .space-fill-2 {
-    height: 500px;
+    height: 100px;
   }
 
   .h1 {
@@ -247,9 +286,6 @@ a {
   }
 
   .h2 {
-    font-size: 200%;
-  }
-  .h3 {
     font-size: 200%;
   }
 
@@ -266,6 +302,22 @@ a {
     display: block;
   }
 
+  .bio_pic {
+    width: 200px;
+    margin: 20px;
+  }
+  
+  .bio {
+    display: flex;
+    align-items: center;
+    font-size: 120%;
+    padding: 20px;
+  }
+
+  #resume {
+    display: flex;
+  }
+
   .info {
     display: flex;
     flex-wrap: wrap;
@@ -275,6 +327,7 @@ a {
 
   .info-item {
     margin: var(--small-pad);
+    font-size: 150%;
   }
   /* ensures samples cards have space gap */
   .samples {
@@ -305,6 +358,13 @@ taking into account about 5px padding */
 
 /* media query for larger screens */
 @media screen and (min-width: 992px) {
+  .about {
+  margin-left: 18.5%;
+  margin-right: 20%;
+  }
+  .space-fill-1 {
+    height: 100px;
+  }
   .info {
     display: flex;
     flex-wrap: wrap;
@@ -349,7 +409,6 @@ taking into account about 5px padding */
   .h3 {
     display: flex;
     border-bottom: none;
-    font-size: 200%;
     text-align: left;
     justify-content: space-between;
   }

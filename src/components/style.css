@@ -24,6 +24,12 @@ body {
   background-size: cover;
 }
 
+.current {
+  color: green;
+ border: none;
+ border-bottom: green solid var(--micro-pad);
+}
+
 p {
   font-size: 125%;
 }
@@ -211,12 +217,6 @@ p {
     padding: var(--small-pad);
   }
 
-  .current {
-    color: green;
-   border: none;
-   border-bottom: green solid var(--micro-pad);
-  }
-
 a {
   text-decoration: none;
   color: black;
@@ -227,6 +227,13 @@ a {
     color: green;
     font-size: 200%;
     margin-left: 5%;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    line-height: 200%;
+
   }
 
   .nav li {
@@ -313,15 +320,17 @@ a {
     font-size: 175%;
   }
 
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    line-height: 200%;
+  }
+
   .nav li {
     font-size: 125%;
     padding: var(--small-pad);
   }
-  .nav {
-    display: flex;
-    justify-content: center;
-    line-height: 200%;
-  }
+  
   .subheader {
     display: block;
   }

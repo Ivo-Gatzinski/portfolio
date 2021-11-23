@@ -1,16 +1,18 @@
-
 import React from "react";
-import Skills from "./images/skills.svg";
+// import Skills from "./images/skills.svg";
 
 export default function Contact() {
   return (
     <section id="resume">
       <div className="h3">Resume</div>
       <div className="skills">
-        <div>
-          <img src={Skills} alt="Technologies" className="skills" />
-        </div></div>
-        <div className="resume"><p>
+        <p id="gear">⚙️</p>
+        {/* <img src={Skills} alt="Technologies" className="skills" /> */}
+      </div>
+
+      <div className="resume">
+        <h4>Skills</h4>
+        <p>
           We don’t serve their kind here! What? Your droids. They’ll have to
           wait outside. We don’t want them here. Listen, why don’t you wait out
           by the speeder. We don’t want any trouble. I heartily agree with you

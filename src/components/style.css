@@ -228,6 +228,10 @@ a {
     display: block;
   }
 
+  #gear {
+    font-size: 100px;
+  }
+
   .bio_pic {
     width: 200px;
     margin-left: 50px;
@@ -362,6 +366,11 @@ taking into account about 5px padding */
   margin-left: 18.5%;
   margin-right: 20%;
   }
+
+  #resume {
+    margin-left: 18.5%;
+    margin-right: 20%;
+  }
   .space-fill-1 {
     height: 100px;
   }
@@ -394,23 +403,14 @@ taking into account about 5px padding */
     display: flex;
     font-size: 250%;
     flex: wrap;
-    /* margin-left: 22%; */
   }
 
   .h2 {
     font-size: 200%;
-    /* margin-left: 22%; */
   }
 
   a {
     text-decoration: none;
-  }
-
-  .h3 {
-    display: flex;
-    border-bottom: none;
-    text-align: left;
-    justify-content: space-between;
   }
 
   .nav li {

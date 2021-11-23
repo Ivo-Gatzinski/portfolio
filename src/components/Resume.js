@@ -12,7 +12,7 @@ export default function Contact() {
         </div>
 
         <div className="resume">
-          <h4>Skills</h4>
+          <p className="h3">Skills</p>
           <p>
             We don’t serve their kind here! What? Your droids. They’ll have to
             wait outside. We don’t want them here. Listen, why don’t you wait

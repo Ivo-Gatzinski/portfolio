@@ -24,6 +24,9 @@ function App() {
     }
   };
 
+  const linkClassNames = (page) =>
+  `${currentPage === page ? "current" : ""}`;
+
   return (
     <main>
       <Header />
@@ -31,7 +34,7 @@ function App() {
           <ul>
             <li>
               <button
-                className={`${currentPage === "about" ? "current" : ""}`}
+                className={linkClassNames("about")}
                 onClick={() => setCurrentPage("about")}
               >
                 About
@@ -39,7 +42,7 @@ function App() {
             </li>
             <li>
               <button
-                className={`${currentPage === "samples" ? "current" : ""}`}
+                className={linkClassNames("samples")}
                 onClick={() => setCurrentPage("samples")}
               >
                 Work
@@ -47,7 +50,7 @@ function App() {
             </li>
             <li>
               <button
-                className={`${currentPage === "contact" ? "current" : ""}`}
+                className={linkClassNames("contact")}
                 onClick={() => setCurrentPage("contact")}
               >
                 Contact
@@ -55,7 +58,7 @@ function App() {
             </li>
             <li>
               <button
-                className={`${currentPage === "resume" ? "current" : ""}`}
+                className={linkClassNames("resume")}
                 onClick={() => setCurrentPage("resume")}
               >
                 Resume

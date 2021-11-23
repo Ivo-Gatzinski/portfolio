@@ -24,8 +24,8 @@ body {
   background-size: cover;
 }
 
-.current {
-  color: green;
+.nav .current {
+color: green;
  border: none;
  border-bottom: green solid var(--micro-pad);
 }
@@ -43,12 +43,16 @@ p {
 }
 .subheader {
   background: transparent;
-  border-radius: 10px;
 }
 
 .work-header {
   color: var(--dark-blue);
 }
+
+.nav {
+  border-bottom: green solid var(--micro-pad);
+}
+
 
 .nav li {
   display: inline;
@@ -58,10 +62,8 @@ p {
   padding-bottom: var(--micro-pad);
   color: var(--dark-blue);
   text-decoration: none;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: var(--dark-blue) solid var(--micro-pad);
+  border: none;
+  /* border-bottom: var(--dark-blue) solid var(--micro-pad); */
   background: none;
 }
 
@@ -249,7 +251,7 @@ textarea {
 
 a {
   text-decoration: none;
-  color: black;
+  /* color: black; */
 }
   .h3 {
     padding: var(--mini-pad);
@@ -371,6 +373,12 @@ a {
   
   .subheader {
     display: block;
+  }
+
+  .bio {
+    display: flex;
+    flex-wrap: flex;
+    align-items: center;
   }
 
   .bio_pic {

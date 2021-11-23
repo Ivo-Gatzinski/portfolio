@@ -4,6 +4,7 @@ import Samples from "./components/Samples.js";
 import ContactInfo from "./components/ContactInfo.js";
 import About from "./components/About.js";
 import Resume from "./components/Resume.js";
+import Form from "./components/Form.js";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("about");
@@ -14,8 +15,8 @@ function App() {
         return <About />;
       case "samples":
         return <Samples />;
-      // case "contact":
-      //   return </Contact>
+      case "contact":
+      return <Form />
       case "resume":
         return <Resume />;
 

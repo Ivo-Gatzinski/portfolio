@@ -23,6 +23,10 @@ body {
   background-image: url("./images/bg.jpg");
   background-size: cover;
 }
+
+p {
+  font-size: 125%;
+}
 /*top headings*/
 .h1 {
   background-color: none;
@@ -81,7 +85,6 @@ body {
   background-color: transparent;
   border-radius: 10px;
   padding: 20px;
-  font-size: 120%;
 }
 
 .bio_pic {
@@ -90,7 +93,6 @@ body {
 
 .bio {
   display: flex;
-  font-size: 120%;
   padding: 20px;
 }
 
@@ -122,10 +124,6 @@ body {
 
 .h4 h3 {
   font-size: 150%;
-}
-
-.h4 p {
-  font-size: 100%;
 }
 
 /* individual backgrounds for cards */
@@ -238,6 +236,7 @@ a {
 
   #resume {
     display: block;
+    margin: 25px;
   }
 
   .res_title {
@@ -259,7 +258,6 @@ a {
   
   .bio {
     display: block;
-    font-size: 120%;
     padding: 20px;
   }
 
@@ -336,12 +334,12 @@ a {
   .bio {
     display: flex;
     align-items: center;
-    font-size: 120%;
     padding: 20px;
   }
 
   #resume {
     display: flex;
+    margin: 25px;
   }
 
   .info {
@@ -397,7 +395,9 @@ taking into account about 5px padding */
   #resume {
     display: flex;
     margin-left: 18.5%;
-    margin-right: 20%;
+    margin-right: 22%;
+    padding-top: 25px;
+    padding-left: 20px;
     align-items: center;
   }
 
@@ -446,7 +446,7 @@ taking into account about 5px padding */
   }
 
   .nav li {
-    font-size: 100%;
+    font-size: 150%;
     padding: var(--mini-pad);
     margin: var(--mini-pad);
   }
@@ -455,7 +455,6 @@ taking into account about 5px padding */
     display: flex;
     flex: wrap;
     justify-content: space-between;
-    font-size: 175%;
     margin-left: 22%;
   }
 

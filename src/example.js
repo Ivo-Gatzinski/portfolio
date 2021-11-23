@@ -7,20 +7,21 @@ import Welcome from "./components/Welcome";
 const renderPage = (currentPage) => {
   switch (currentPage) {
     case "sponge-bob":
-      return <SpongeBob />
+      return <SpongeBob />;
     case "squidward":
-      return <Squidward />
+      return <Squidward />;
     case "mr-krabs":
-      return <MrKrabs />
-  
+      return <MrKrabs />;
+
     default:
-      return <Welcome />
+      return <Welcome />;
   }
-}
+};
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState("welcome");
-  const linkClassNames = (page) => `btn btn-link ${currentPage === page ?  "fw-bold text-info bg-dark" : ""}`
+  const linkClassNames = (page) =>
+    `btn btn-link ${currentPage === page ? "fw-bold text-info bg-dark" : ""}`;
 
   return (
     <div>

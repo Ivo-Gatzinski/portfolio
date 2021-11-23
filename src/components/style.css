@@ -212,6 +212,13 @@ body {
     font-size: 150%;
     padding: var(--small-pad);
   }
+
+  .current {
+    color: green;
+   border: none;
+   border-bottom: green solid var(--micro-pad);
+  }
+
 a {
   text-decoration: none;
   color: black;
@@ -240,7 +247,8 @@ a {
   #gear {
     font-size: 175px;
     text-align: center;
-  padding-left: 20px;
+ 
+  padding: 20px;
   }
 
   .bio_pic {

@@ -31,7 +31,7 @@ function App() {
           <ul>
             <li>
               <button
-                className="aboutLink"
+                className={`${currentPage === "about" ? "current" : ""}`}
                 onClick={() => setCurrentPage("about")}
               >
                 About
@@ -39,7 +39,7 @@ function App() {
             </li>
             <li>
               <button
-                className="workLink"
+                className={`${currentPage === "samples" ? "current" : ""}`}
                 onClick={() => setCurrentPage("samples")}
               >
                 Work
@@ -47,7 +47,7 @@ function App() {
             </li>
             <li>
               <button
-                className="contactLink"
+                className={`${currentPage === "contact" ? "current" : ""}`}
                 onClick={() => setCurrentPage("contact")}
               >
                 Contact
@@ -55,7 +55,7 @@ function App() {
             </li>
             <li>
               <button
-                className="resumeLink"
+                className={`${currentPage === "resume" ? "current" : ""}`}
                 onClick={() => setCurrentPage("resume")}
               >
                 Resume

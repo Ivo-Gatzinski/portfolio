@@ -3,8 +3,8 @@ import React from "react";
 
 export default function Contact() {
   return (
+    <div><div className="res_title h3">Resume</div>
     <section id="resume">
-      <div className="h3">Resume</div>
       <div className="skills">
         <p id="gear">⚙️</p>
         {/* <img src={Skills} alt="Technologies" className="skills" /> */}
@@ -23,6 +23,6 @@ export default function Contact() {
           buy you something…
         </p>
       </div>
-    </section>
+    </section></div>
   );
 }

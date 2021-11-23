@@ -73,6 +73,15 @@ body {
   margin-top: 12px;
 }
 
+.resume {
+  color:var(--dark-blue);
+  text-align: left;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 120%;
+}
+
 .bio_pic {
   width: 25%;
 }
@@ -177,9 +186,9 @@ body {
  border-bottom: green solid var(--micro-pad);
 }
 
-.skills {
+/* .skills {
   width: 10rem;
-}
+} */
 
 /* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
 @media screen and (min-width: 175px) {
@@ -228,8 +237,14 @@ a {
     display: block;
   }
 
+  .res_title {
+    margin-bottom: 20px;
+  }
+
   #gear {
-    font-size: 100px;
+    font-size: 175px;
+    text-align: center;
+  padding-left: 20px;
   }
 
   .bio_pic {
@@ -367,10 +382,18 @@ taking into account about 5px padding */
   margin-right: 20%;
   }
 
+  .res_title {
+    margin-top: 40px;
+    margin-left: 22%;
+    margin-bottom: 40px;
+  }
   #resume {
+    display: flex;
     margin-left: 18.5%;
     margin-right: 20%;
+    align-items: center;
   }
+
   .space-fill-1 {
     height: 100px;
   }

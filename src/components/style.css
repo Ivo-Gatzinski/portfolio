@@ -308,8 +308,9 @@ a {
   }
 
   .nav li {
-    font-size: 125%;
-    padding: var(--small-pad);
+    font-size: 110%;
+    padding: var(--mini-pad);
+    font-weight: bolder;
   }
 
   #resume {
@@ -337,6 +338,10 @@ a {
   }
 
 
+  .h2 h2 {
+    margin-left: 5%;
+
+  }
 
   .bio {
     display: block;
@@ -377,7 +382,7 @@ a {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 765px) {
   .space-fill-2 {
     height: 100px;
   }
@@ -438,7 +443,7 @@ a {
   .info {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -20%;
+    justify-content: left;
   }
 
   .info-item {
@@ -491,7 +496,7 @@ a {
   .info {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
   }
 
   .info-item {
@@ -531,8 +536,7 @@ a {
 
   .nav li {
     font-size: 150%;
-    padding: var(--mini-pad);
-    margin: var(--mini-pad);
+    padding: var(--small-pad);
   }
 
   .nav {

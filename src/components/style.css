@@ -84,7 +84,7 @@ p {
   background-color: transparent;
   border-radius: 10px;
   padding: 5px;
-  margin-top: 12px;
+  margin-top: 25px;
 }
 
 .resume {
@@ -206,8 +206,7 @@ textarea {
   border-radius: 10px;
   flex: 100%;
   border: none;
-  margin-top: 10px;
-  margin-left: 10px;
+  margin: 10px;
 }
 
 .submit {
@@ -285,6 +284,7 @@ a {
   #gear {
     font-size: 175px;
     text-align: center;
+    line-height: 200px;
  
   padding: 20px;
   }
@@ -315,12 +315,6 @@ a {
     flex-direction: column;
     padding: var(--small-pad);
   }
-
-  .about {
-    margin: var(--small-pad);
-  }
-
-
   .card {
     height: 150px;
     margin: var(--mini-pad);
@@ -388,6 +382,7 @@ a {
 
   #resume {
     display: flex;
+    align-items: center;
   }
 
   .info {
@@ -407,8 +402,6 @@ a {
     flex-direction: row;
     gap: var(--mini-pad);
   }
-  /* next two make sure first card is twice the size of the others,
-taking into account about 5px padding */
 
   .card:first-child {
     flex: 0 0 98%;
@@ -438,8 +431,8 @@ taking into account about 5px padding */
     display: flex;
     margin-left: 18.5%;
     margin-right: 22%;
-    padding-top: 25px;
-    padding-left: 20px;
+    /* padding-top: 25px;
+    padding-left: 20px; */
     /* align-items: center; */
   }
 

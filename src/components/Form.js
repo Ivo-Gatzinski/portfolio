@@ -4,14 +4,9 @@ export default function Form() {
   return (
     <form className="form">
       <div className="inputs">
-        <input type="text" id="input-name" placeholder="Name"></input>
-
-        <input
-          type="email"
-          id="input-email"
-          placeholder="Email"
-        ></input>
-
+        <input type="text" id="input-first" placeholder="First Name"></input>
+        <input type="text" id="input-last" placeholder="Last Name"></input>
+        <input type="email" id="input-email" placeholder="Email"></input>
         <input type="text" id="input-subject" placeholder="Subject"></input>
       </div>
       <div className="text">
@@ -23,7 +18,6 @@ export default function Form() {
         ></textarea>
         <button className="submit">Submit</button>
       </div>
-      
     </form>
   );
 }

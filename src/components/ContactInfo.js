@@ -4,7 +4,7 @@ export default function Contact() {
     return (
 <section className="contact" id="contact">
         <div className="info">
-          <div className="info-item"><a rel="noreferrer" href="tel:6193520538">619.352.0538</a></div>
+          <div className="info-item"><a rel="noreferrer" href="tel:6193520538">Phone</a></div>
           <div className="info-item">
             <a href="mailto:ivo.gatzinski@outlook.com">Email</a>
           </div>

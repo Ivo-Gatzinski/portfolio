@@ -322,10 +322,19 @@ a {
     margin-bottom: 20px;
   }
 
+  @keyframes spin {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+  }
+
   #gear {
     font-size: 150px;
     text-align: center;
   margin-top: 25px;
+  animation-name: spin;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
   }
 
   .bio_pic {

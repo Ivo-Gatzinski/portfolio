@@ -1,10 +1,35 @@
 import React from 'react';
+import pic from "./images/bio_pic.png";
 
 export default function Samples() {
     return (
         
 <section className="work" id="work">
         <div className="samples">
+        <figure className="portfolio card">
+            <div className="h4">
+              <h3>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://ivo-gatzinski.github.io/portfolio"
+                  >Ivo's Portfolio</a
+                >
+              </h3>
+              <p>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/Ivo-Gatzinski/portfolio"
+                  >GitHub</a
+                >
+              </p>
+            </div>
+            <figure>
+          
+          <img src={pic} alt="Ivo Gatzinski" className="work_pic" />
+        </figure>
+          </figure>
           <figure className="surf card">
             <div className="h4">
               <h3>

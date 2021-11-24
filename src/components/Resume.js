@@ -13,49 +13,44 @@ export default function Contact() {
 
         <div className="resume">
           <p className="bio">
-            We don’t serve their kind here! What? Your droids. They’ll have to
-            wait outside. We don’t want them here. Listen, why don’t you wait
-            out by the speeder. We don’t want any trouble. I heartily agree with
-            you sir. Negola dewaghi wooldugger?!? He doesn’t like you. I’m
-            sorry. I don’t like you either You just watch yourself. We’re wanted
-            men. I have the death sentence in twelve systems. I’ll be careful
-            than. You’ll be dead. This little one isn’t worth the effort. Come
-            let me buy you something…
+            Collaborative, attentive, and
+            compassionate listener that meets concrete needs of diverse
+            viewpoints. Sensitive to others’ perspectives, having lived in six
+            countries on four continents. Fluent in Bulgarian and Russian;
+            moderately competent in French; basic skills in Japanese.
           </p>
           <p className="h3">Skills</p>
           <div className="skills">
             <div className="frontend">
               <p className="h2">Front End</p>
-          <ol>
-            <li>We don’t serve their kind here! What? </li>
-            <li>Your droids.</li>
-            <li>They’ll have to wait outside. </li>
-            <li>
-              We don’t want them here. Listen, why don’t you wait out by the
-              speeder.
-            </li>
-            <li>We don’t want any trouble.</li>
-            </ol>
+              <ol>
+                <li>React.js</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>
+                  Handlebars.js
+                </li>
+                <li>IndexDB</li>
+              </ol>
             </div>
             <div className="backend">
-            <p className="h2">Back End</p>
-          <ol>
-            <li>We don’t serve their kind here! What? </li>
-            <li>Your droids.</li>
-            <li>They’ll have to wait outside. </li>
-            <li>
-              We don’t want them here. Listen, why don’t you wait out by the
-              speeder.
-            </li>
-            <li>We don’t want any trouble.</li>
-            </ol>
+              <p className="h2">Back End</p>
+              <ol>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>GraphQL</li>
+                <li>
+                  Node.js
+                </li>
+                <li>Express.js</li>
+              </ol>
             </div>
-            </div>
-            <p id="download">
-              <a  href="../resume-gatzinski-ivo.pdf" download >
+          </div>
+          <p id="download">
+            <a href="../resume-gatzinski-ivo.pdf" download>
               📎 Download My Resume
-              </a>
-            </p>
+            </a>
+          </p>
         </div>
       </section>
     </div>

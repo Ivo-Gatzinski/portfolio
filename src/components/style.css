@@ -101,7 +101,7 @@ p {
 
 .bio {
   display: flex;
-  padding: 20px;
+  padding: 10px;
 }
 
 
@@ -167,6 +167,12 @@ p {
   filter: opacity(0.75);
 }
 
+ol li {
+  padding: 10px;
+  font-size: 125%;
+  list-style: "⚙️ "; 
+}
+
 .info {
   display: flex;
   flex-wrap: wrap;
@@ -191,6 +197,25 @@ p {
  border-bottom: green solid var(--micro-pad);
 }
 
+#download {
+  margin: 25px;
+  margin-top: 25px;
+}
+
+#download a {
+  padding-bottom: var(--micro-pad);
+  color: var(--dark-blue);
+  text-decoration: none;
+  border: none;
+  background: none;
+}
+
+#download a:hover {
+  color: green;
+ border: none;
+ cursor: pointer;
+ border-bottom: green solid var(--micro-pad);
+}
 
 input {
   margin: 10px;
@@ -243,9 +268,12 @@ textarea {
   }
 
   .h2 {
-    text-align: center;
-    font-size: 150%;
+    font-size: 175%;
     padding: var(--small-pad);
+  }
+
+  .h2 h2 {
+    text-align: center;
   }
 
 a {
@@ -282,11 +310,9 @@ a {
   }
 
   #gear {
-    font-size: 175px;
+    font-size: 150px;
     text-align: center;
-    line-height: 200px;
- 
-  padding: 20px;
+  margin-top: 25px;
   }
 
   .bio_pic {
@@ -297,7 +323,7 @@ a {
   
   .bio {
     display: block;
-    padding: 20px;
+    padding: 10px;
   }
 
   .info {
@@ -353,7 +379,9 @@ a {
   .h2 {
     font-size: 175%;
   }
-
+.h2 h2 {
+  text-align: left;
+}
   .nav {
     display: flex;
     justify-content: space-between;
@@ -382,7 +410,7 @@ a {
 
   #resume {
     display: flex;
-    align-items: center;
+    align-items: top;
   }
 
   .info {
@@ -431,9 +459,7 @@ a {
     display: flex;
     margin-left: 18.5%;
     margin-right: 22%;
-    /* padding-top: 25px;
-    padding-left: 20px; */
-    /* align-items: center; */
+    align-items: top;
   }
 
   .space-fill-1 {
@@ -473,8 +499,11 @@ a {
 
   .h2 {
     font-size: 175%;
-    text-align: left;
+  }
+
+  .h2 h2 {
     margin-left: 20%;
+
   }
 
   a {

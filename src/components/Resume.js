@@ -31,6 +31,7 @@ export default function Contact() {
                   Handlebars.js
                 </li>
                 <li>IndexDB</li>
+                <li>GraphQL</li>
               </ol>
             </div>
             <div className="backend">
@@ -39,6 +40,7 @@ export default function Contact() {
                 <li>MySQL</li>
                 <li>MongoDB</li>
                 <li>GraphQL</li>
+                <li>Apollo Server</li>
                 <li>
                   Node.js
                 </li>

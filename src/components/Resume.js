@@ -43,11 +43,12 @@ export default function Contact() {
               </ol>
             </div>
           </div>
-          <p id="download">
+          <div>
+            <ul id="download"><li>
             <a href="../resume-gatzinski-ivo.pdf" download>
-              📎 Download My Resume
-            </a>
-          </p>
+              Download My Resume
+            </a></li></ul>
+            </div>
         </div>
       </section>
     </div>

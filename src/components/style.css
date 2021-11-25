@@ -6,7 +6,6 @@ html {
 
 :root {
   --light-turq: #33c5ff;
-  --dark-grey: #363642;
   --dark-blue: #094d9b;
   --large-pad: 50px;
   --small-pad: 10px;
@@ -109,12 +108,13 @@ p {
   background-size: 100%;
   filter: none;
   position: relative;
-  border-radius: 10px;
-  cursor: pointer;
+  border-radius: 50px;
+  
 }
 
 .card:hover {
   filter: none;
+  cursor: pointer;
 }
 
 .h4 {
@@ -123,8 +123,8 @@ p {
   padding: var(--mini-pad);
   text-align: left;
   position: absolute;
-  top: 5%;
-  left: var(--small-pad);
+  top: 50%;
+  left: 45px;
 }
 
 .h4 h3 {
@@ -200,8 +200,14 @@ ol li {
 }
 
 #download {
-  margin-left: -25px;
-  margin-top: 20px;
+  margin-top: 18px;
+  margin-left: 8px;
+  font-size: 125%;
+
+}
+
+#download li {
+  list-style: "📎  ";
 }
 
 #download a {
@@ -393,9 +399,10 @@ a {
   .skills {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
   }
-
+.backend {
+  margin-left: 100px;
+}
   .form {
     display: block;
     margin-left: 20%;

@@ -16,7 +16,7 @@ export default function Contact() {
             compassionate listener that meets concrete needs of diverse
             viewpoints. Sensitive to others’ perspectives, having lived in six
             countries on four continents. Fluent in Bulgarian and Russian;
-            moderately competent in French; basic skills in Japanese.
+            moderate French; basic Japanese.
           </p>
           <p className="h3">Skills</p>
           <div className="skills">

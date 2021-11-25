@@ -1,11 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
 
-/*thank you Erica for asking the question in OH*/
 html {
   scroll-behavior: smooth;
 }
 
-/*set color and font variables*/
 :root {
   --light-turq: #33c5ff;
   --dark-grey: #363642;
@@ -18,8 +16,6 @@ html {
 
 body {
   font-family: "Syne Mono", monospace;
-  /* background-image: url("./images/blue_herring.jpeg");
-  background-size: cover; */
   background-image: url("./images/bg.jpg");
   background-size: cover;
 }
@@ -39,7 +35,7 @@ color: green;
 p {
   font-size: 125%;
 }
-/*top headings*/
+
 .h1 {
   background-color: none;
   color: green;
@@ -69,7 +65,6 @@ p {
   color: var(--dark-blue);
   text-decoration: none;
   border: none;
-  /* border-bottom: var(--dark-blue) solid var(--micro-pad); */
   background: none;
 }
 
@@ -122,7 +117,6 @@ p {
   filter: none;
 }
 
-/*style titles inside cards*/
 .h4 {
   background-color: white;
   border-radius: 10px;
@@ -485,7 +479,6 @@ a {
 
 }
 
-/* media query for larger screens */
 @media screen and (min-width: 992px) {
   .about {
   margin-left: 18.5%;

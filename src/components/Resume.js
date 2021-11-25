@@ -4,19 +4,19 @@ import React from "react";
 export default function Contact() {
   return (
     <div>
-      
       <section id="resume">
-      <div><p id="gear">⚙️</p></div>
-        <div className="skills">
-          </div>
+        <div>
+          <p id="gear">⚙️</p>
+        </div>
+        <div className="skills"></div>
 
         <div className="resume">
           <p className="bio">
-            Collaborative, attentive, and
-            compassionate listener that meets concrete needs of diverse
-            viewpoints. Sensitive to others’ perspectives, having lived in six
-            countries on four continents. Fluent in Bulgarian and Russian;
-            moderate French; basic Japanese.
+            Multilingual, multicultural, multidisciplinary Full Stack Web Developer.
+            Collaborative, attentive, and compassionate listener who meets
+            concrete needs of diverse viewpoints. Sensitive to others’
+            perspectives, having lived in six countries on four continents.
+            Fluent in Bulgarian and Russian; moderate French; basic Japanese.
           </p>
           <p className="h3">Skills</p>
           <div className="skills">
@@ -26,9 +26,7 @@ export default function Contact() {
                 <li>React.js</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
-                <li>
-                  Handlebars.js
-                </li>
+                <li>Handlebars.js</li>
                 <li>IndexDB</li>
                 <li>GraphQL</li>
               </ol>
@@ -40,9 +38,7 @@ export default function Contact() {
                 <li>MongoDB</li>
                 <li>GraphQL</li>
                 <li>Apollo Server</li>
-                <li>
-                  Node.js
-                </li>
+                <li>Node.js</li>
                 <li>Express.js</li>
               </ol>
             </div>

@@ -4,12 +4,11 @@ import React from "react";
 export default function Contact() {
   return (
     <div>
-      {/* <div className="res_title h3">Resume</div> */}
+      
       <section id="resume">
+      <div><p id="gear">⚙️</p></div>
         <div className="skills">
-          <p id="gear">⚙️</p>
-          {/* <img src={Skills} alt="Technologies" className="skills" /> */}
-        </div>
+          </div>
 
         <div className="resume">
           <p className="bio">

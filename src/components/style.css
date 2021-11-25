@@ -200,8 +200,8 @@ ol li {
 }
 
 #download {
-  margin: 25px;
-  margin-top: 25px;
+  margin-left: -25px;
+  margin-top: 20px;
 }
 
 #download a {
@@ -388,6 +388,12 @@ a {
 @media screen and (min-width: 765px) {
   .space-fill-2 {
     height: 100px;
+  }
+
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 
   .form {

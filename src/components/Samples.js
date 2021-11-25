@@ -21,7 +21,7 @@ export default function Samples() {
                   target="_blank"
                   rel="noreferrer"
                   href="https://github.com/Ivo-Gatzinski/portfolio"
-                  >GitHub</a
+                  >GitHub <i class="fab fa-github"></i></a
                 >
               </p>
             </div>
@@ -45,7 +45,7 @@ export default function Samples() {
                   target="_blank"
                   rel="noreferrer"
                   href="https://github.com/Ivo-Gatzinski/weather-dash"
-                  >GitHub</a
+                  >GitHub <i class="fab fa-github"></i></a
                 >
               </p>
             </div>
@@ -65,7 +65,7 @@ export default function Samples() {
                   target="_blank"
                   rel="noreferrer"
                   href="https://github.com/Ivo-Gatzinski/workday-planner"
-                  >GitHub</a
+                  >GitHub <i class="fab fa-github"></i></a
                 >
               </p>
             </div>
@@ -85,7 +85,7 @@ export default function Samples() {
                   target="_blank"
                   rel="noreferrer"
                   href="https://github.com/Ivo-Gatzinski/password-generator"
-                  >GitHub</a
+                  >GitHub <i class="fab fa-github"></i></a
                 >
               </p>
             </div>
@@ -102,7 +102,7 @@ export default function Samples() {
                   target="_blank"
                   rel="noreferrer"
                   href="https://github.com/Ivo-Gatzinski/magic-8-ball"
-                  >GitHub</a
+                  >GitHub <i class="fab fa-github"></i></a
                 >
               </p>
             </div>
@@ -122,7 +122,7 @@ export default function Samples() {
                   target="_blank"
                   rel="noreferrer"
                   href="https://github.com/Ivo-Gatzinski/adoption-connection"
-                  >GitHub</a
+                  >GitHub <i class="fab fa-github"></i></a
                 >
               </p>
             </div>

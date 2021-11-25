@@ -56,13 +56,6 @@ export default function Form() {
           onMouseLeave={handleMouse}
           placeholder="Email"
         ></input>
-
-        <input
-          type="text"
-          id="input-subject"
-          placeholder="Subject"
-          onMouseLeave={handleMouse}
-        ></input>
       </div>
       <div className="text">
         <textarea

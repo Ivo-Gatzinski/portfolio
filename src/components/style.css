@@ -52,6 +52,7 @@ p {
 
 .nav {
   border-bottom: green solid var(--micro-pad);
+  
 }
 
 
@@ -302,13 +303,12 @@ a {
 
   .nav {
     display: flex;
-    justify-content: space-between;
     line-height: 200%;
 
   }
 
   .nav li {
-    font-size: 110%;
+    font-size: 90%;
     padding: var(--mini-pad);
     font-weight: bolder;
   }
@@ -424,7 +424,6 @@ a {
 }
   .nav {
     display: flex;
-    justify-content: space-between;
     line-height: 200%;
   }
 
@@ -433,6 +432,10 @@ a {
     padding: var(--small-pad);
   }
   
+.nav button {
+  margin-left: 20px;
+  padding: var(--small-pad);
+}
   .subheader {
     display: block;
   }

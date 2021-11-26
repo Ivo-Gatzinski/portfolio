@@ -360,12 +360,13 @@ a {
   }
 
   .info {
-    display: block;
-    align-items: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .info-item {
-    padding: 20px;
+    padding: 10px;
   }
 
   .samples {
@@ -464,6 +465,7 @@ a {
   .info {
     display: flex;
     flex-wrap: nowrap;
+    justify-content: left;
     margin-left: 20%;
   }
 
@@ -471,7 +473,6 @@ a {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    margin: var(--mini-pad);
     font-size: 125%;
   }
   

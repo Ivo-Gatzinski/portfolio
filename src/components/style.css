@@ -183,6 +183,7 @@ ol li {
 
 .info-item {
   margin: var(--small-pad);
+  font-size: 125%;
 }
 
 .info-item a {
@@ -301,15 +302,16 @@ a {
     color: rgb(100, 1, 131);
   }
 
-  .nav {
+  .nav ul {
     display: flex;
-    line-height: 200%;
+    line-height: 125%;
+    justify-content: space-around;
 
   }
 
   .nav li {
-    font-size: 90%;
-    padding: var(--mini-pad);
+    font-size: 125%;
+    /* padding: 25px; */
     font-weight: bolder;
   }
 
@@ -467,7 +469,7 @@ a {
 
   .info-item {
     margin: var(--small-pad);
-    font-size: 150%;
+    font-size: 125%;
   }
   
 

@@ -361,6 +361,7 @@ a {
 
   .info {
     display: block;
+    align-items: left;
   }
 
   .info-item {
@@ -462,13 +463,15 @@ a {
 
   .info {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
+    flex-wrap: nowrap;
     margin-left: 20%;
   }
 
   .info-item {
-    margin: var(--small-pad);
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: var(--mini-pad);
     font-size: 125%;
   }
   
@@ -515,8 +518,7 @@ a {
   }
   .info {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
+    flex-wrap: nowrap;
   }
 
   .info-item {

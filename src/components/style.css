@@ -465,8 +465,9 @@ a {
   .info {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: left;
-    margin-left: 20%;
+    justify-content: space-between;
+    margin-left: 18%;
+    margin-right: 18%;
   }
 
   .info-item {

@@ -27,7 +27,7 @@ export default function Contact() {
                 <li>CSS</li>
                 <li>JavaScript</li>
                 <li>Handlebars.js</li>
-                <li>IndexDB</li>
+                <li>IndexedDB</li>
                 <li>GraphQL</li>
               </ol>
             </div>

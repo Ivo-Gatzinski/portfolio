@@ -361,7 +361,6 @@ a {
 
   .info {
     display: block;
-    padding-left: 20%;
   }
 
   .info-item {
@@ -465,6 +464,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
+    margin-left: 20%;
   }
 
   .info-item {

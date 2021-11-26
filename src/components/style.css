@@ -311,7 +311,7 @@ a {
 
   .nav li {
     font-size: 125%;
-    /* padding: 25px; */
+    padding-left: 20px;
     font-weight: bolder;
   }
 
@@ -365,7 +365,7 @@ a {
   }
 
   .info-item {
-    padding-block: 10px;
+    padding: 20px;
   }
 
   .samples {

@@ -11,6 +11,7 @@ html {
   --small-pad: 10px;
   --mini-pad: 5px;
   --micro-pad: 2px;
+  background-color: black;
 }
 
 body {

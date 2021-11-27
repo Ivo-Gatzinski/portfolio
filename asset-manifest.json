@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.051c87d3.chunk.css",
-    "main.js": "/portfolio/static/js/main.0d4ed3d7.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.0d4ed3d7.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.348843ca.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.348843ca.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.2aeee879.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.2aeee879.js.map",
     "static/js/2.31a87a53.chunk.js": "/portfolio/static/js/2.31a87a53.chunk.js",
@@ -13,12 +13,13 @@
     "static/css/main.051c87d3.chunk.css.map": "/portfolio/static/css/main.051c87d3.chunk.css.map",
     "static/js/2.31a87a53.chunk.js.LICENSE.txt": "/portfolio/static/js/2.31a87a53.chunk.js.LICENSE.txt",
     "static/media/bio_pic.11f03512.png": "/portfolio/static/media/bio_pic.11f03512.png",
-    "static/media/style.css": "/portfolio/static/media/surf.0489a528.jpeg"
+    "static/media/style.css": "/portfolio/static/media/surf.0489a528.jpeg",
+    "static/media/resume-gatzinski-ivo.d037d5ed.pdf": "/portfolio/static/media/resume-gatzinski-ivo.d037d5ed.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.2aeee879.js",
     "static/js/2.31a87a53.chunk.js",
     "static/css/main.051c87d3.chunk.css",
-    "static/js/main.0d4ed3d7.chunk.js"
+    "static/js/main.348843ca.chunk.js"
   ]
 }

@@ -35,7 +35,7 @@ export default function Samples() {
                 rel="noreferrer"
                 href="https://ivo-gatzinski.github.io/portfolio"
               >
-                Ivo's Portfolio
+                Portfolio
               </a>
             </h3>
             <p>

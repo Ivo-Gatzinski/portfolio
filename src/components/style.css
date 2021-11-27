@@ -16,7 +16,7 @@ html {
 
 body {
   font-family: "Syne Mono", monospace;
-  background-image: url("./images/bg.jpg");
+  background-image: url("./images/skyPaint.jpg");
   background-size: cover;
 }
 
@@ -27,9 +27,9 @@ body {
 }
 
 .nav .current {
-color: green;
- border: none;
- border-bottom: green solid var(--micro-pad);
+  color: green;
+  border: none;
+  border-bottom: green solid var(--micro-pad);
 }
 
 p {
@@ -53,9 +53,7 @@ p {
 
 .nav {
   border-bottom: green solid var(--micro-pad);
-  
 }
-
 
 .nav li {
   display: inline;
@@ -70,10 +68,10 @@ p {
 }
 
 .nav button:hover {
- color: green;
- border: none;
- cursor: pointer;
- border-bottom: green solid var(--micro-pad);
+  color: green;
+  border: none;
+  cursor: pointer;
+  border-bottom: green solid var(--micro-pad);
 }
 
 .contact-header {
@@ -81,7 +79,7 @@ p {
 }
 
 .about {
-  color:var(--dark-blue);
+  color: var(--dark-blue);
   text-align: left;
   background-color: transparent;
   border-radius: 10px;
@@ -90,7 +88,7 @@ p {
 }
 
 .resume {
-  color:var(--dark-blue);
+  color: var(--dark-blue);
   text-align: left;
   background-color: transparent;
   border-radius: 10px;
@@ -111,7 +109,6 @@ p {
   filter: none;
   position: relative;
   border-radius: 50px;
-  
 }
 
 .card:hover {
@@ -133,9 +130,17 @@ p {
   font-size: 150%;
 }
 
-.portfolio {
-  background: url("./images/bg.jpg");
+.books {
+  background-image: url("./images/books.png");
   background-color: skyblue;
+  filter: opacity(0.75);
+  background-position: bottom;
+  background-size: 120%;
+}
+
+.portfolio {
+  background: transparent;
+  /* background-color: skyblue; */
   filter: opacity(0.75);
 }
 
@@ -174,7 +179,7 @@ p {
 ol li {
   padding: 10px;
   font-size: 125%;
-  list-style: "⚙️ "; 
+  list-style: "⚙️ ";
 }
 
 .info {
@@ -196,17 +201,16 @@ ol li {
 }
 
 .info-item a:hover {
- color: green;
- border: none;
- cursor: pointer;
- border-bottom: green solid var(--micro-pad);
+  color: green;
+  border: none;
+  cursor: pointer;
+  border-bottom: green solid var(--micro-pad);
 }
 
 #download {
   margin-top: 18px;
   margin-left: 8px;
   font-size: 125%;
-
 }
 
 #download li {
@@ -223,9 +227,9 @@ ol li {
 
 #download a:hover {
   color: green;
- border: none;
- cursor: pointer;
- border-bottom: green solid var(--micro-pad);
+  border: none;
+  cursor: pointer;
+  border-bottom: green solid var(--micro-pad);
 }
 
 input {
@@ -255,9 +259,7 @@ textarea {
   margin: 30px;
 }
 
-
 @media screen and (min-width: 175px) {
-  
   body {
     flex-direction: column;
   }
@@ -271,7 +273,7 @@ textarea {
     padding: 20px;
     margin-right: 25px;
   }
-  
+
   h1 {
     text-align: left;
     flex: 100%;
@@ -287,10 +289,10 @@ textarea {
     text-align: center;
   }
 
-a {
-  text-decoration: none;
-  /* color: black; */
-}
+  a {
+    text-decoration: none;
+    /* color: black; */
+  }
   .h3 {
     padding: var(--mini-pad);
     margin: var(--mini-pad) var(--mini-pad) var(--mini-pad) 0;
@@ -307,7 +309,6 @@ a {
     display: flex;
     line-height: 125%;
     justify-content: space-around;
-
   }
 
   .nav li {
@@ -326,18 +327,22 @@ a {
   }
 
   @keyframes spin {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(360deg);}
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
   }
 
   #gear {
     font-size: 150px;
     text-align: center;
-  margin-top: 25px;
-  animation-name: spin;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+    margin-top: 25px;
+    animation-name: spin;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
   }
 
   .bio_pic {
@@ -349,10 +354,8 @@ a {
     width: 33%;
   }
 
-
   .h2 h2 {
     margin-left: 5%;
-
   }
 
   .bio {
@@ -384,7 +387,6 @@ a {
   }
 
   .subheader {
-  
     padding-top: var(--large-pad);
     justify-content: center;
     display: flex;
@@ -404,9 +406,9 @@ a {
     display: flex;
     flex-wrap: wrap;
   }
-.backend {
-  margin-left: 100px;
-}
+  .backend {
+    margin-left: 100px;
+  }
   .form {
     display: block;
     margin-left: 20%;
@@ -423,9 +425,9 @@ a {
   .h2 {
     font-size: 175%;
   }
-.h2 h2 {
-  text-align: left;
-}
+  .h2 h2 {
+    text-align: left;
+  }
   .nav {
     display: flex;
     line-height: 200%;
@@ -435,11 +437,11 @@ a {
     font-size: 125%;
     padding: var(--small-pad);
   }
-  
-.nav button {
-  margin-left: 20px;
-  padding: var(--small-pad);
-}
+
+  .nav button {
+    margin-left: 20px;
+    padding: var(--small-pad);
+  }
   .subheader {
     display: block;
   }
@@ -454,10 +456,10 @@ a {
     width: 200px;
     margin: 20px;
   }
-.work_pic {
-  width: 33%;
-  margin: 4%;
-}
+  .work_pic {
+    width: 33%;
+    margin: 4%;
+  }
   #resume {
     display: flex;
     align-items: top;
@@ -477,7 +479,6 @@ a {
     text-align: center;
     font-size: 125%;
   }
-  
 
   .samples {
     display: flex;
@@ -500,13 +501,12 @@ a {
     flex: 0 0 100%;
     height: 200px;
   }
-
 }
 
 @media screen and (min-width: 992px) {
   .about {
-  margin-left: 18.5%;
-  margin-right: 20%;
+    margin-left: 18.5%;
+    margin-right: 20%;
   }
 
   #resume {
@@ -552,7 +552,6 @@ a {
 
   .h2 h2 {
     margin-left: 20%;
-
   }
 
   a {

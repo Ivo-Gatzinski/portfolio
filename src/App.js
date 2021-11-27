@@ -38,7 +38,7 @@ function App() {
                 className={linkClassNames("about")}
                 onClick={() => setCurrentPage("about")}
               >
-                About <i class="far fa-address-card"></i>
+                About <i className="far fa-address-card"></i>
               </button>
             </li>
             <li>
@@ -46,7 +46,7 @@ function App() {
                 className={linkClassNames("samples")}
                 onClick={() => setCurrentPage("samples")}
               >
-                Work <i class="fas fa-code-branch"></i>
+                Work <i className="fas fa-code-branch"></i>
               </button>
             </li>
             <li>
@@ -54,7 +54,7 @@ function App() {
                 className={linkClassNames("contact")}
                 onClick={() => setCurrentPage("contact")}
               >
-                Contact <i class="far fa-grin-beam"></i>
+                Contact <i className="far fa-grin-beam"></i>
               </button>
             </li>
             <li>
@@ -62,7 +62,7 @@ function App() {
                 className={linkClassNames("resume")}
                 onClick={() => setCurrentPage("resume")}
               >
-                Resume <i class="fas fa-briefcase"></i>
+                Resume <i className="fas fa-briefcase"></i>
               </button>
             </li>
           </ul>

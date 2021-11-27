@@ -48,7 +48,7 @@ export default function Contact() {
               <li>
                 <a
                   
-                  href="https://www.dropbox.com/s/4zaby3t4av1igds/resume-gatzinski-ivo.docx?dl=0"
+                  href="https://www.dropbox.com/s/haah5j545w0nbm8/resume-gatzinski-ivo.pdf?dl=0"
                   target="_blank"
                   rel="noreferrer"
                 >

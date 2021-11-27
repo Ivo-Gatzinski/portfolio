@@ -47,7 +47,8 @@ export default function Contact() {
             <ul id="download"><li>
             <a download="resume-gatzinski-ivo.pdf" href="../resume-gatzinski-ivo.pdf" target="_blank" rel="noreferrer">
               Download My Resume
-            </a></li></ul>
+            </a>
+            </li></ul>
             </div>
         </div>
       </section>

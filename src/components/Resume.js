@@ -1,5 +1,6 @@
 import React from "react";
-// import Skills from "./images/skills.svg";
+
+import resume from "./resume-gatzinski-ivo.pdf";
 
 export default function Contact() {
   return (
@@ -47,8 +48,8 @@ export default function Contact() {
             <ul id="download">
               <li>
                 <a
-                  
-                  href="https://www.dropbox.com/s/haah5j545w0nbm8/resume-gatzinski-ivo.pdf?dl=0"
+                  download
+                  href={resume}
                   target="_blank"
                   rel="noreferrer"
                 >

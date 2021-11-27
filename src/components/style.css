@@ -168,7 +168,7 @@ p {
 
 .eight_ball {
   background-image: url("./images/eight_ball.png");
-  background-color: white;
+  background-color: none;
   background-position: top;
   filter: opacity(0.75);
   background-size: 25%;

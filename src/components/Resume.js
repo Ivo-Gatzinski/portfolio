@@ -45,7 +45,7 @@ export default function Contact() {
           </div>
           <div>
             <ul id="download"><li>
-            <a href="../resume-gatzinski-ivo.pdf" download target="_blank">
+            <a href="../resume-gatzinski-ivo.pdf" target="_blank" rel="noreferrer">
               Download My Resume
             </a></li></ul>
             </div>

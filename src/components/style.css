@@ -18,6 +18,7 @@ body {
   font-family: "Syne Mono", monospace;
   background-image: url("./images/skyPaint.jpg");
   background-size: cover;
+  background-position: bottom;
 }
 
 .error {

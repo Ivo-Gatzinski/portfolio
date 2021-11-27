@@ -12,9 +12,9 @@ export default function Contact() {
 
         <div className="resume">
           <p className="bio">
-            Multilingual, multicultural, multidisciplinary Full Stack Web Developer.
-            Collaborative, attentive, and compassionate listener who meets
-            concrete needs of diverse viewpoints. Sensitive to others’
+            Multilingual, multicultural, multidisciplinary Full Stack Web
+            Developer. Collaborative, attentive, and compassionate listener who
+            meets concrete needs of diverse viewpoints. Sensitive to others’
             perspectives, having lived in six countries on four continents.
             Fluent in Bulgarian and Russian; moderate French; basic Japanese.
           </p>
@@ -44,12 +44,19 @@ export default function Contact() {
             </div>
           </div>
           <div>
-            <ul id="download"><li>
-            <a download="resume-gatzinski-ivo.pdf" href="../resume-gatzinski-ivo.pdf" target="_blank" rel="noreferrer">
-              Download My Resume
-            </a>
-            </li></ul>
-            </div>
+            <ul id="download">
+              <li>
+                <a
+                  
+                  href="https://www.dropbox.com/s/4zaby3t4av1igds/resume-gatzinski-ivo.docx?dl=0"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Download My Resume
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
     </div>

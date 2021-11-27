@@ -48,7 +48,7 @@ export default function Contact() {
             <ul id="download">
               <li>
                 <a
-                  download
+                  download="resume-gatzinski-ivo.pdf"
                   href={resume}
                   target="_blank"
                   rel="noreferrer"

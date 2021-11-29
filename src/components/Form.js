@@ -40,34 +40,35 @@ export default function Form() {
 
   return (
     <form className="form">
-      <div className="inputs">
+        <label htmlFor="name">Name</label>
         <input
           type="text"
-          id="input-name"
-          placeholder="Name"
+          id="name"
+          name="name"
+          placeholder="Luke Skywalker"
           onMouseLeave={handleMouse}
         ></input>
+        <label htmlFor="email">Email</label>
         <input
           value={email}
           type="email"
           name="email"
-          id="input-email"
+          id="email"
           onChange={handleChange}
           onMouseLeave={handleMouse}
-          placeholder="Email"
+          placeholder="luke@resistance.org"
         ></input>
-      </div>
-      <div className="text">
+      <label htmlFor="message">Message</label>
         <textarea
+        className="text"
           name="message"
           type="text"
-          id="input-message"
-          placeholder="Message"
+          id="message"
+          placeholder="May the Force be with you!"
           onMouseLeave={handleMouse}
         ></textarea>
         <div>{errorMessage && <p className="error">{errorMessage}</p>} </div>
-        <button className="submit">Submit</button>
-      </div>
+        <div className="submit"><button>Submit</button></div>
     </form>
   );
 }

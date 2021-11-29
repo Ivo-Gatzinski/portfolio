@@ -10,16 +10,13 @@ export default function About() {
           
           <img src={pic} alt="Ivo Gatzinski" className="bio_pic" />
         </figure>
-        <p>
-          We don’t serve their kind here! What? Your droids. They’ll have to
-          wait outside. We don’t want them here. Listen, why don’t you wait out
-          by the speeder. We don’t want any trouble. I heartily agree with you
-          sir. Negola dewaghi wooldugger?!? He doesn’t like you. I’m sorry. I
-          don’t like you either You just watch yourself. We’re wanted men. I
-          have the death sentence in twelve systems. I’ll be careful than.
-          You’ll be dead. This little one isn’t worth the effort. Come let me
-          buy you something…
-        </p>
+        <p className="bio">
+            Multilingual, multicultural, multidisciplinary Full Stack Web
+            Developer. Collaborative, attentive, and compassionate listener who
+            meets concrete needs of diverse viewpoints. Sensitive to others’
+            perspectives, having lived in six countries on four continents.
+            Fluent in Bulgarian and Russian; moderate French; basic Japanese.
+          </p>
       </div>
     </section>
   );

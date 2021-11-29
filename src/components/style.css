@@ -103,6 +103,7 @@ p {
 .bio {
   display: flex;
   padding: 10px;
+  font-size: 125%;
 }
 
 .card {
@@ -180,10 +181,8 @@ p {
   filter: opacity(0.75);
 }
 
-ol li {
-  padding: 10px;
-  font-size: 125%;
-  list-style: "⚙️ ";
+label {
+  color: var(--dark-blue);
 }
 
 .info {
@@ -212,13 +211,10 @@ ol li {
 }
 
 #download {
-  margin-top: 18px;
-  margin-left: 8px;
-  font-size: 125%;
-}
+  display: flex;
+  justify-content: center;
 
-#download li {
-  list-style: "📎  ";
+  font-size: 125%;
 }
 
 #download a {
@@ -236,31 +232,47 @@ ol li {
   border-bottom: green solid var(--micro-pad);
 }
 
+form {
+  display: grid;
+  grid-template-rows: 1fr;
+}
+
+.error {
+  padding: 20px;
+}
+
 input {
-  margin: 10px;
   padding: 10px;
   border-radius: 10px;
   border: none;
 }
 
 textarea {
-  height: 250px;
+  height: 200px;
   width: 100%;
   padding: 10px;
   border-radius: 10px;
-  flex: 100%;
   border: none;
-  margin: 10px;
+}
+
+label {
+  font-size: 125%;
+  padding: 20px;
 }
 
 .submit {
+  text-align: center;
+  margin: 15px;
+}
+
+.submit button {
   color: var(--dark-blue);
   text-decoration: none;
   border: none;
-  border-bottom: var(--dark-blue) solid;
   background: none;
   font-size: 125%;
-  margin: 30px;
+  border-bottom: 2px solid var(--dark-blue);
+  width: 80px;
 }
 
 @media screen and (min-width: 175px) {
@@ -271,13 +283,6 @@ textarea {
     height: 50px;
   }
 
-  .form {
-    display: block;
-    justify-content: center;
-    padding: 20px;
-    margin-right: 25px;
-  }
-
   h1 {
     text-align: left;
     flex: 100%;
@@ -286,7 +291,6 @@ textarea {
 
   .h2 {
     font-size: 175%;
-    padding: var(--small-pad);
   }
 
   .h2 h2 {
@@ -298,11 +302,11 @@ textarea {
     /* color: black; */
   }
   .h3 {
-    padding: var(--mini-pad);
-    margin: var(--mini-pad) var(--mini-pad) var(--mini-pad) 0;
     color: green;
     font-size: 200%;
-    margin-left: 5%;
+    text-align: left;
+    padding-top: 25px;
+    margin-left: 20%;
   }
 
   h3 a {
@@ -321,6 +325,13 @@ textarea {
     font-weight: bolder;
   }
 
+  form {
+    display: grid;
+    grid-template-rows: 1fr;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
   #resume {
     display: block;
     margin: 25px;
@@ -328,6 +339,15 @@ textarea {
 
   .res_title {
     margin-bottom: 20px;
+  }
+
+  ol li {
+    margin: 10px;
+    font-size: 125%;
+    list-style: "⚙️ ";
+    list-style-position: inside;
+    margin-left: 24px;
+    transform: scale(1.2, 1.2);
   }
 
   @keyframes spin {
@@ -342,7 +362,7 @@ textarea {
   #gear {
     font-size: 150px;
     text-align: center;
-    margin-top: 25px;
+    padding: 20px;
     animation-name: spin;
     animation-duration: 10s;
     animation-iteration-count: infinite;
@@ -406,21 +426,6 @@ textarea {
     height: 100px;
   }
 
-  .skills {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .backend {
-    margin-left: 100px;
-  }
-  .form {
-    display: block;
-    margin-left: 20%;
-    margin-right: 20%;
-    padding: 20px;
-    margin-top: 25px;
-  }
-
   h1 {
     text-align: left;
     font-size: 200%;
@@ -464,9 +469,42 @@ textarea {
     width: 33%;
     margin: 4%;
   }
+
+  form {
+    display: grid;
+    grid-template-rows: 1fr;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  input {
+    width: 300px;
+  }
+
+  ol li {
+    font-size: 135%;
+    list-style: "⚙️ ";
+    list-style-position: inside;
+    transform: scale(1.2, 1.2);
+  }
+
   #resume {
     display: flex;
-    align-items: top;
+    flex-wrap: wrap;
+  }
+
+  .resume {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .backend {
+    padding-left: 50px;
   }
 
   .info {
@@ -516,8 +554,7 @@ textarea {
   #resume {
     display: flex;
     margin-left: 18.5%;
-    margin-right: 22%;
-    align-items: top;
+    margin-right: none;
   }
 
   .space-fill-1 {
@@ -581,5 +618,14 @@ textarea {
     margin-right: 20%;
     padding: 10px;
     justify-content: space-between;
+  }
+
+  ol li {
+    font-size: 135%;
+    list-style: "⚙️ ";
+    list-style-position: inside;
+    transform: scale(1.5, 1.5);
+    padding-top: 20px;
+    padding-left: 20px;
   }
 }

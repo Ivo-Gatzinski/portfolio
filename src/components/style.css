@@ -362,7 +362,7 @@ label {
   }
 
   #gear {
-    font-size: 150px;
+    font-size: 100px;
     text-align: center;
     padding: 20px;
     animation-name: spin;

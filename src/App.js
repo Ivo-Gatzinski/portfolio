@@ -32,40 +32,34 @@ function App() {
     <main>
       <Header />
       <nav className="subheader nav">
-          <ul>
-            <li>
+          
+          
               <button
                 className={linkClassNames("about")}
                 onClick={() => setCurrentPage("about")}
               >
                 About <i className="far fa-address-card"></i>
               </button>
-            </li>
-            <li>
               <button
                 className={linkClassNames("samples")}
                 onClick={() => setCurrentPage("samples")}
               >
                 Work <i className="fas fa-code-branch"></i>
               </button>
-            </li>
-            <li>
+            
               <button
                 className={linkClassNames("contact")}
                 onClick={() => setCurrentPage("contact")}
               >
                 Contact <i className="far fa-grin-beam"></i>
               </button>
-            </li>
-            <li>
               <button
                 className={linkClassNames("resume")}
                 onClick={() => setCurrentPage("resume")}
               >
                 Resume <i className="fas fa-briefcase"></i>
               </button>
-            </li>
-          </ul>
+            
         </nav>
       {renderPage()}
       <ContactInfo />

@@ -53,26 +53,24 @@ p {
 }
 
 .nav {
-  border-bottom: green solid var(--micro-pad);
-}
-
-.nav li {
-  display: inline;
+  border-bottom: green solid 2px;
+  
 }
 
 .nav button {
-  padding-bottom: var(--micro-pad);
+  padding: none;
   color: var(--dark-blue);
   text-decoration: none;
   border: none;
   background: none;
+  font-size: 150%;
 }
 
 .nav button:hover {
   color: green;
-  border: none;
   cursor: pointer;
-  border-bottom: green solid var(--micro-pad);
+  border-bottom: green solid 2px;
+  padding: none;
 }
 
 .contact-header {
@@ -282,6 +280,10 @@ label {
     height: 50px;
   }
 
+  .subheader {
+    margin: 10px;
+  }
+
   h1 {
     text-align: left;
     flex: 100%;
@@ -312,16 +314,15 @@ label {
     color: rgb(100, 1, 131);
   }
 
-  .nav ul {
+  .nav {
     display: flex;
-    line-height: 125%;
-    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding: none;
   }
-
-  .nav li {
-    font-size: 125%;
-    padding-left: 20px;
+  .nav button {
+    font-size: 100%;
     font-weight: bolder;
+    margin: 10px;
   }
 
   form {
@@ -340,13 +341,15 @@ label {
     margin-bottom: 20px;
   }
 
-  ol li {
-    margin: 10px;
-    font-size: 125%;
-    list-style: "⚙️ ";
-    list-style-position: inside;
-    margin-left: 24px;
-    transform: scale(1.2, 1.2);
+  ul li {
+    margin: 20px;
+    font-size: 100%;
+    text-align: left;
+    
+  }
+
+  li img {
+    transform: scale(1.5, 1.5);
   }
 
   @keyframes spin {
@@ -409,14 +412,8 @@ label {
     margin: var(--mini-pad);
   }
 
-  .subheader {
-    padding-top: var(--large-pad);
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 3%;
-    margin-right: 4%;
-    padding: 10px;
+  .bio {
+    font-size: 100%;
   }
 }
 
@@ -438,26 +435,18 @@ label {
   }
   .nav {
     display: flex;
-    line-height: 200%;
-  }
-
-  .nav li {
-    font-size: 125%;
-    padding: var(--small-pad);
+    justify-content: space-between;
   }
 
   .nav button {
-    margin-left: 20px;
-    padding: var(--small-pad);
-  }
-  .subheader {
-    display: block;
+    font-size: 150%;
   }
 
   .bio {
     display: flex;
     flex-wrap: flex;
     align-items: center;
+    font-size: 125%;
   }
 
   .bio_pic {
@@ -480,11 +469,10 @@ label {
     width: 300px;
   }
 
-  ol li {
-    font-size: 135%;
-    list-style: "⚙️ ";
+  ul li {
+    font-size: 100%;
+    list-style: none;
     list-style-position: inside;
-    transform: scale(1.2, 1.2);
   }
 
   #resume {
@@ -503,7 +491,7 @@ label {
   }
 
   .backend {
-    padding-left: 50px;
+    margin-left: 100px;
   }
 
   .info {
@@ -531,9 +519,7 @@ label {
   }
 
   .subheader {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
+    margin: 20px;
   }
 
   .card {
@@ -619,10 +605,9 @@ label {
     justify-content: space-between;
   }
 
-  ol li {
-    font-size: 135%;
-    list-style: "⚙️ ";
-    list-style-position: inside;
+  ul li {
+    font-size: 100%;
+    list-style: none;
     transform: scale(1.5, 1.5);
     padding-top: 20px;
     padding-left: 20px;

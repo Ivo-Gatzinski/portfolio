@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.96e6b327.chunk.css",
-    "main.js": "/portfolio/static/js/main.f2e075a6.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f2e075a6.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.2aeee879.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.2aeee879.js.map",
-    "static/js/2.31a87a53.chunk.js": "/portfolio/static/js/2.31a87a53.chunk.js",
-    "static/js/2.31a87a53.chunk.js.map": "/portfolio/static/js/2.31a87a53.chunk.js.map",
-    "static/js/3.018d3e39.chunk.js": "/portfolio/static/js/3.018d3e39.chunk.js",
-    "static/js/3.018d3e39.chunk.js.map": "/portfolio/static/js/3.018d3e39.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.dae41879.chunk.css",
+    "main.js": "/portfolio/static/js/main.cb2f1abf.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.cb2f1abf.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.78bb7826.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.78bb7826.js.map",
+    "static/js/2.672261e1.chunk.js": "/portfolio/static/js/2.672261e1.chunk.js",
+    "static/js/2.672261e1.chunk.js.map": "/portfolio/static/js/2.672261e1.chunk.js.map",
+    "static/js/3.b9cd172f.chunk.js": "/portfolio/static/js/3.b9cd172f.chunk.js",
+    "static/js/3.b9cd172f.chunk.js.map": "/portfolio/static/js/3.b9cd172f.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.96e6b327.chunk.css.map": "/portfolio/static/css/main.96e6b327.chunk.css.map",
-    "static/js/2.31a87a53.chunk.js.LICENSE.txt": "/portfolio/static/js/2.31a87a53.chunk.js.LICENSE.txt",
+    "static/css/main.dae41879.chunk.css.map": "/portfolio/static/css/main.dae41879.chunk.css.map",
+    "static/js/2.672261e1.chunk.js.LICENSE.txt": "/portfolio/static/js/2.672261e1.chunk.js.LICENSE.txt",
     "static/media/bio_pic.11f03512.png": "/portfolio/static/media/bio_pic.11f03512.png",
     "static/media/style.css": "/portfolio/static/media/surf.0489a528.jpeg",
     "static/media/resume-gatzinski-ivo.d037d5ed.pdf": "/portfolio/static/media/resume-gatzinski-ivo.d037d5ed.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.2aeee879.js",
-    "static/js/2.31a87a53.chunk.js",
-    "static/css/main.96e6b327.chunk.css",
-    "static/js/main.f2e075a6.chunk.js"
+    "static/js/runtime-main.78bb7826.js",
+    "static/js/2.672261e1.chunk.js",
+    "static/css/main.dae41879.chunk.css",
+    "static/js/main.cb2f1abf.chunk.js"
   ]
 }

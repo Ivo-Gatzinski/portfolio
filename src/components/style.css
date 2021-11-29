@@ -24,7 +24,7 @@ body {
 .error {
   color: red;
   text-align: center;
-  margin-left: 10px;
+  font-weight: bolder;
 }
 
 .nav .current {
@@ -243,13 +243,13 @@ form {
 
 input {
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 5px;
   border: none;
 }
 
 textarea {
   height: 200px;
-  width: 100%;
+  width: 95%;
   padding: 10px;
   border-radius: 10px;
   border: none;
@@ -261,7 +261,7 @@ label {
 }
 
 .submit {
-  text-align: center;
+  text-align: left;
   margin: 15px;
 }
 
@@ -271,8 +271,7 @@ label {
   border: none;
   background: none;
   font-size: 125%;
-  border-bottom: 2px solid var(--dark-blue);
-  width: 80px;
+  width: 100px;
 }
 
 @media screen and (min-width: 175px) {

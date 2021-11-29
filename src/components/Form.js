@@ -39,6 +39,7 @@ export default function Form() {
   };
 
   return (
+   <div><div>{errorMessage && <p className="error">{errorMessage}</p>} </div>
     <form className="form">
         <label htmlFor="name">Name</label>
         <input
@@ -67,8 +68,8 @@ export default function Form() {
           placeholder="May the Force be with you!"
           onMouseLeave={handleMouse}
         ></textarea>
-        <div>{errorMessage && <p className="error">{errorMessage}</p>} </div>
-        <div className="submit"><button>Submit</button></div>
-    </form>
+        
+        <div className="submit"><button>Submit 🚀</button></div>
+    </form></div> 
   );
 }

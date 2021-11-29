@@ -210,9 +210,9 @@ label {
 
 #download {
   display: flex;
-  justify-content: center;
-
-  font-size: 125%;
+  justify-content: left;
+margin-left: 20%;
+  font-size: 100%;
 }
 
 #download a {
@@ -611,7 +611,7 @@ label {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1700px) {
 
   .nav {
     justify-content: left;
@@ -620,6 +620,10 @@ label {
   .nav button {
     font-size: 150%;
     margin-left: 50px;
+  }
+
+  main {
+    margin-right: 25%;
   }
 
 }

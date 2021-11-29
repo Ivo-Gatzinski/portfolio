@@ -418,9 +418,6 @@ label {
 }
 
 @media screen and (min-width: 765px) {
-  .space-fill-2 {
-    height: 100px;
-  }
 
   h1 {
     text-align: left;
@@ -584,7 +581,7 @@ label {
     text-decoration: none;
   }
 
-  .nav li {
+  .nav button {
     font-size: 150%;
     padding: var(--small-pad);
   }
@@ -612,4 +609,17 @@ label {
     padding-top: 20px;
     padding-left: 20px;
   }
+}
+
+@media screen and (min-width: 1400px) {
+
+  .nav {
+    justify-content: left;
+  }
+
+  .nav button {
+    font-size: 150%;
+    margin-left: 50px;
+  }
+
 }

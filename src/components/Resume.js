@@ -107,7 +107,7 @@ export default function Contact() {
             target="_blank"
             rel="noreferrer"
           >
-            Download My Resume <i class="fas fa-paperclip"></i>
+            Download My Resume <i className="fas fa-paperclip"></i>
           </a>
         </p>
       </div>

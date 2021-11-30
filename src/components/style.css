@@ -58,6 +58,7 @@ p {
 }
 
 .nav button {
+  margin-bottom: 5px;
   padding: 5px;
   color: var(--dark-blue);
   text-decoration: none;

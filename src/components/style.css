@@ -29,8 +29,8 @@ body {
 
 .nav .current {
   color: green;
-  border: none;
-  border-bottom: green solid var(--micro-pad);
+  border: green solid var(--micro-pad);
+  border-radius: 7px;
 }
 
 p {
@@ -53,24 +53,21 @@ p {
 }
 
 .nav {
-  border-bottom: green solid 2px;
+  border-bottom: green dashed 2px;
   
 }
 
 .nav button {
-  padding: none;
+  padding: 5px;
   color: var(--dark-blue);
   text-decoration: none;
   border: none;
   background: none;
-  font-size: 150%;
 }
 
 .nav button:hover {
   color: green;
   cursor: pointer;
-  border-bottom: green solid 2px;
-  padding: none;
 }
 
 .contact-header {
@@ -190,7 +187,6 @@ label {
 
 .info-item {
   margin: var(--small-pad);
-  font-size: 125%;
 }
 
 .info-item a {
@@ -317,12 +313,11 @@ label {
   .nav {
     display: flex;
     flex-wrap: nowrap;
-    padding: none;
   }
   .nav button {
     font-size: 100%;
     font-weight: bolder;
-    margin: 10px;
+    margin-right: 5px;
   }
 
   form {
@@ -397,6 +392,7 @@ label {
 
   .info-item {
     padding: 10px;
+
   }
 
   .samples {
@@ -549,6 +545,7 @@ label {
 
   .info-item {
     padding: 20px;
+    font-size: 125%;
   }
   .samples {
     display: flex;

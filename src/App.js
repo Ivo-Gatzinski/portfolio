@@ -47,12 +47,12 @@ function App() {
                 Work <i className="fas fa-code-branch"></i>
               </button>
             
-              <button
+              {/* <button
                 className={linkClassNames("contact")}
                 onClick={() => setCurrentPage("contact")}
               >
                 Contact <i className="far fa-grin-beam"></i>
-              </button>
+              </button> */}
               <button
                 className={linkClassNames("resume")}
                 onClick={() => setCurrentPage("resume")}

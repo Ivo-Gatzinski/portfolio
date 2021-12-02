@@ -113,7 +113,6 @@ p {
 
 .card:hover {
   filter: none;
-  cursor: pointer;
 }
 
 .h4 {

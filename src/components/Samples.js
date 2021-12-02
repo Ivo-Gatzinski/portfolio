@@ -11,7 +11,7 @@ export default function Samples() {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://ivo-gatzinski.github.io/book-search/"
+                href="https://book-search-ivg.herokuapp.com/"
               >
                 Book Search
               </a>

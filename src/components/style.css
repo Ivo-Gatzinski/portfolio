@@ -130,6 +130,15 @@ p {
   font-size: 150%;
 }
 
+.pets {
+  background-image: url("./images/pets.png");
+  filter: opacity(0.75);
+  background-position: top;
+  background-size: 50%;
+  background-repeat: no-repeat;
+
+}
+
 .books {
   background-image: url("./images/books.png");
   background-color: skyblue;

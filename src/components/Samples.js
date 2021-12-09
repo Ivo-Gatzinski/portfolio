@@ -5,6 +5,28 @@ export default function Samples() {
   return (
     <section className="work" id="work">
       <div className="samples">
+      <figure className="pets card">
+          <div className="h4">
+            <h3>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://healthy-pets-copypaste.herokuapp.com/"
+              >
+                Healthy Pets
+              </a>
+            </h3>
+            <p>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/elenaliu0415/healthy-pets/"
+              >
+                GitHub <i className="fab fa-github"></i>
+              </a>
+            </p>
+          </div>
+        </figure>
       <figure className="books card">
           <div className="h4">
             <h3>

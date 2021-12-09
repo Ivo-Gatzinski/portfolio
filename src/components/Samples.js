@@ -27,6 +27,50 @@ export default function Samples() {
             </p>
           </div>
         </figure>
+        <figure className="eight_ball card">
+          <div className="h4">
+            <h3>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://magic8-ezi.herokuapp.com/"
+              >
+                Magic 8 Ball
+              </a>
+            </h3>
+            <p>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/Ivo-Gatzinski/magic-8-ball"
+              >
+                GitHub <i className="fab fa-github"></i>
+              </a>
+            </p>
+          </div>
+        </figure>
+        <figure className="run card">
+          <div className="h4">
+            <h3>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://ivo-gatzinski.github.io/adoption-connection"
+              >
+                Adopt a Furry Buddy
+              </a>
+            </h3>
+            <p>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/Ivo-Gatzinski/adoption-connection"
+              >
+                GitHub <i className="fab fa-github"></i>
+              </a>
+            </p>
+          </div>
+        </figure>
       <figure className="books card">
           <div className="h4">
             <h3>
@@ -140,50 +184,7 @@ export default function Samples() {
             </p>
           </div>
         </figure>
-        <figure className="eight_ball card">
-          <div className="h4">
-            <h3>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://magic8-ezi.herokuapp.com/"
-              >
-                Magic 8 Ball
-              </a>
-            </h3>
-            <p>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://github.com/Ivo-Gatzinski/magic-8-ball"
-              >
-                GitHub <i className="fab fa-github"></i>
-              </a>
-            </p>
-          </div>
-        </figure>
-        <figure className="run card">
-          <div className="h4">
-            <h3>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://ivo-gatzinski.github.io/adoption-connection"
-              >
-                Adopt a Furry Buddy
-              </a>
-            </h3>
-            <p>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://github.com/Ivo-Gatzinski/adoption-connection"
-              >
-                GitHub <i className="fab fa-github"></i>
-              </a>
-            </p>
-          </div>
-        </figure>
+        
       </div>
     </section>
   );

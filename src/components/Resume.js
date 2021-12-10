@@ -5,8 +5,19 @@ import resume from "./resume-gatzinski-ivo.pdf";
 export default function Contact() {
   return (
     <div>
+      <div id="download">
+        <p>
+          <a
+            download="resume-gatzinski-ivo.pdf"
+            href={resume}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Download My Resume <i className="fas fa-paperclip"></i>
+          </a>
+        </p>
+      </div>
       <p className="h3">Skills</p>
-
       <section id="resume">
         <div>
           <p id="gear">⚙️</p>
@@ -99,18 +110,7 @@ export default function Contact() {
           </div>
         </div>
       </section>
-      <div id="download">
-        <p>
-          <a
-            download="resume-gatzinski-ivo.pdf"
-            href={resume}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Download My Resume <i className="fas fa-paperclip"></i>
-          </a>
-        </p>
-      </div>
+      
     </div>
   );
 }

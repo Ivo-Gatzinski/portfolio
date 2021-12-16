@@ -59,7 +59,7 @@ export default function Samples() {
                 rel="noreferrer"
                 href="https://ivo-gatzinski.github.io/adoption-connection"
               >
-                Adopt a Furry Buddy: JavaScript, Server-Side APIs, CSS, HTML
+                Adopt a Furry Buddy: JavaScript, Server-Side APIs
               </a>
             </h3>
             <p>Find a furry buddy to adopt.
@@ -150,7 +150,7 @@ export default function Samples() {
                 rel="noreferrer"
                 href="https://ivo-gatzinski.github.io/workday-planner"
               >
-                Work Day Planner: JavaScript, CSS, HTML
+                Work Day Planner: JavaScript
               </a>
             </h3>
             <p>Schedule your productive day.

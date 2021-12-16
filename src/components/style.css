@@ -130,6 +130,11 @@ p {
   font-size: 150%;
 }
 
+iframe {
+  border-radius: 10px;
+  border: none;
+}
+
 .pets {
   background-image: url("./images/pets.png");
   filter: opacity(0.75);

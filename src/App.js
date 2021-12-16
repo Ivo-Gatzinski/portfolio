@@ -4,7 +4,7 @@ import Samples from "./components/Samples.js";
 import ContactInfo from "./components/ContactInfo.js";
 import About from "./components/About.js";
 import Resume from "./components/Resume.js";
-import Form from "./components/Form.js";
+import Skills from "./components/Skills.js";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("about");
@@ -15,11 +15,10 @@ function App() {
         return <About />;
       case "samples":
         return <Samples />;
-      case "contact":
-      return <Form />
+      case "skills":
+      return <Skills />
       case "resume":
         return <Resume />;
-
       default:
         return <About />;
     }
@@ -47,12 +46,12 @@ function App() {
                 Work <i className="fas fa-code-branch"></i>
               </button>
             
-              {/* <button
-                className={linkClassNames("contact")}
-                onClick={() => setCurrentPage("contact")}
+              <button
+                className={linkClassNames("skills")}
+                onClick={() => setCurrentPage("skills")}
               >
-                Contact <i className="far fa-grin-beam"></i>
-              </button> */}
+                Skills <i class="fas fa-cog"></i>
+              </button>
               <button
                 className={linkClassNames("resume")}
                 onClick={() => setCurrentPage("resume")}

@@ -126,12 +126,20 @@ p {
   padding: var(--mini-pad);
   text-align: left;
   position: absolute;
-  top: 50%;
-  left: 45px;
+  top: 42%;
+  left: 7%;
 }
 
 .h4 h3 {
-  font-size: 150%;
+  font-size: 125%;
+}
+
+.h4 h3 a:hover {
+  color: green;
+}
+
+i:hover {
+  color: green;
 }
 
 iframe {

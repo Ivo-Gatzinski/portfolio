@@ -16,16 +16,16 @@ export default function Samples() {
                 Healthy Pets: MERN Stack with GraphQL
               </a>
             </h3>
-            <p>Easily communicate with your Veterinarian.</p>
-            <p>
+            <p>Easily communicate with your Vet. 
+            
               <a
                 target="_blank"
                 rel="noreferrer"
                 href="https://github.com/elenaliu0415/healthy-pets/"
               >
-                GitHub <i className="fab fa-github"></i>
+                <i className="fab fa-github"></i>
               </a>
-            </p>
+              </p>
           </div>
         </figure>
         <figure className="eight_ball card">
@@ -39,14 +39,14 @@ export default function Samples() {
                 Magic 8 Ball: JavaScript, MySQL, Handlebars, MDBootstrap
               </a>
             </h3>
-            <p>Combat decision fatigue with this easy app!</p>
-            <p>
+            <p>Combat decision fatigue with this easy app! 
+          
               <a
                 target="_blank"
                 rel="noreferrer"
                 href="https://github.com/Ivo-Gatzinski/magic-8-ball"
               >
-                GitHub <i className="fab fa-github"></i>
+                <i className="fab fa-github"></i>
               </a>
             </p>
           </div>
@@ -62,14 +62,13 @@ export default function Samples() {
                 Adopt a Furry Buddy: JavaScript, Server-Side APIs, CSS, HTML
               </a>
             </h3>
-            <p>Find a furry buddy to adopt.</p>
-            <p>
+            <p>Find a furry buddy to adopt.
               <a
                 target="_blank"
                 rel="noreferrer"
                 href="https://github.com/Ivo-Gatzinski/adoption-connection"
               >
-                GitHub <i className="fab fa-github"></i>
+                <i className="fab fa-github"></i>
               </a>
             </p>
           </div>
@@ -85,14 +84,13 @@ export default function Samples() {
                 Book Search: MERN Stack with GraphQL
               </a>
             </h3>
-            <p>Find and save your favorite books.</p>
-            <p>
+            <p>Find and save your favorite books.
               <a
                 target="_blank"
                 rel="noreferrer"
                 href="https://github.com/Ivo-Gatzinski/book-search/"
               >
-                GitHub <i className="fab fa-github"></i>
+                <i className="fab fa-github"></i>
               </a>
             </p>
           </div>
@@ -108,14 +106,13 @@ export default function Samples() {
                 Portfolio: React.js, CSS, HTML
               </a>
             </h3>
-            <p>Advertise your skills to the world!</p>
-            <p>
+            <p>Advertise your skills to the world!
               <a
                 target="_blank"
                 rel="noreferrer"
                 href="https://github.com/Ivo-Gatzinski/portfolio"
               >
-                GitHub <i className="fab fa-github"></i>
+                <i className="fab fa-github"></i>
               </a>
             </p>
           </div>
@@ -134,14 +131,13 @@ export default function Samples() {
                 Weather Dashboard: JavaScript, Server-Side APIs, Bootstrap
               </a>
             </h3>
-            <p>Get the weather for any city.</p>
-            <p>
+            <p>Get the weather for any city.
               <a
                 target="_blank"
                 rel="noreferrer"
                 href="https://github.com/Ivo-Gatzinski/weather-dash"
               >
-                GitHub <i className="fab fa-github"></i>
+                <i className="fab fa-github"></i>
               </a>
             </p>
           </div>
@@ -157,14 +153,13 @@ export default function Samples() {
                 Work Day Planner: JavaScript, CSS, HTML
               </a>
             </h3>
-            <p>Schedule your productive day.</p>
-            <p>
+            <p>Schedule your productive day.
               <a
                 target="_blank"
                 rel="noreferrer"
                 href="https://github.com/Ivo-Gatzinski/workday-planner"
               >
-                GitHub <i className="fab fa-github"></i>
+                <i className="fab fa-github"></i>
               </a>
             </p>
           </div>
@@ -180,14 +175,13 @@ export default function Samples() {
                 Password Generator: JavaScript
               </a>
             </h3>
-            <p>Generate a secure password.</p>
-            <p>
+            <p>Generate a secure password.
               <a
                 target="_blank"
                 rel="noreferrer"
                 href="https://github.com/Ivo-Gatzinski/password-generator"
               >
-                GitHub <i className="fab fa-github"></i>
+                <i className="fab fa-github"></i>
               </a>
             </p>
           </div>

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.681eee77.chunk.css",
-    "main.js": "/portfolio/static/js/main.6b81ad59.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.6b81ad59.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.b1253756.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b1253756.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.78bb7826.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.78bb7826.js.map",
     "static/js/2.d8cc9569.chunk.js": "/portfolio/static/js/2.d8cc9569.chunk.js",
@@ -14,12 +14,12 @@
     "static/js/2.d8cc9569.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d8cc9569.chunk.js.LICENSE.txt",
     "static/media/bio_pic.11f03512.png": "/portfolio/static/media/bio_pic.11f03512.png",
     "static/media/style.css": "/portfolio/static/media/surf.0489a528.jpeg",
-    "static/media/resume-gatzinski-ivo.2f5063cc.pdf": "/portfolio/static/media/resume-gatzinski-ivo.2f5063cc.pdf"
+    "static/media/resume-gatzinski-ivo.0d62a89d.pdf": "/portfolio/static/media/resume-gatzinski-ivo.0d62a89d.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.78bb7826.js",
     "static/js/2.d8cc9569.chunk.js",
     "static/css/main.681eee77.chunk.css",
-    "static/js/main.6b81ad59.chunk.js"
+    "static/js/main.b1253756.chunk.js"
   ]
 }

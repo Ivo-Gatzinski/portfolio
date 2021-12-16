@@ -13,9 +13,10 @@ export default function Samples() {
                 rel="noreferrer"
                 href="https://healthy-pets-copypaste.herokuapp.com/"
               >
-                Healthy Pets
+                Healthy Pets: MERN Stack with GraphQL
               </a>
             </h3>
+            <p>Easily communicate with your Veterinarian.</p>
             <p>
               <a
                 target="_blank"
@@ -35,9 +36,10 @@ export default function Samples() {
                 rel="noreferrer"
                 href="https://magic8-ezi.herokuapp.com/"
               >
-                Magic 8 Ball
+                Magic 8 Ball: JavaScript, MySQL, Handlebars, MDBootstrap
               </a>
             </h3>
+            <p>Combat decision fatigue with this easy app!</p>
             <p>
               <a
                 target="_blank"
@@ -57,9 +59,10 @@ export default function Samples() {
                 rel="noreferrer"
                 href="https://ivo-gatzinski.github.io/adoption-connection"
               >
-                Adopt a Furry Buddy
+                Adopt a Furry Buddy: JavaScript, Server-Side APIs, CSS, HTML
               </a>
             </h3>
+            <p>Find a furry buddy to adopt.</p>
             <p>
               <a
                 target="_blank"
@@ -79,9 +82,10 @@ export default function Samples() {
                 rel="noreferrer"
                 href="https://book-search-ivg.herokuapp.com/"
               >
-                Book Search
+                Book Search: MERN Stack with GraphQL
               </a>
             </h3>
+            <p>Find and save your favorite books.</p>
             <p>
               <a
                 target="_blank"
@@ -101,9 +105,10 @@ export default function Samples() {
                 rel="noreferrer"
                 href="https://ivo-gatzinski.github.io/portfolio"
               >
-                Portfolio
+                Portfolio: React.js, CSS, HTML
               </a>
             </h3>
+            <p>Advertise your skills to the world!</p>
             <p>
               <a
                 target="_blank"
@@ -126,9 +131,10 @@ export default function Samples() {
                 rel="noreferrer"
                 href="https://ivo-gatzinski.github.io/weather-dash"
               >
-                Weather Dashboard
+                Weather Dashboard: JavaScript, Server-Side APIs, Bootstrap
               </a>
             </h3>
+            <p>Get the weather for any city.</p>
             <p>
               <a
                 target="_blank"
@@ -148,9 +154,10 @@ export default function Samples() {
                 rel="noreferrer"
                 href="https://ivo-gatzinski.github.io/workday-planner"
               >
-                Work Day Planner
+                Work Day Planner: JavaScript, CSS, HTML
               </a>
             </h3>
+            <p>Schedule your productive day.</p>
             <p>
               <a
                 target="_blank"
@@ -170,9 +177,10 @@ export default function Samples() {
                 rel="noreferrer"
                 href="https://ivo-gatzinski.github.io/password-generator"
               >
-                Password Generator
+                Password Generator: JavaScript
               </a>
             </h3>
+            <p>Generate a secure password.</p>
             <p>
               <a
                 target="_blank"

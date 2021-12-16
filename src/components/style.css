@@ -21,6 +21,10 @@ body {
   background-position: bottom;
 }
 
+p {
+  color: var(--dark-blue);
+}
+
 .error {
   color: red;
   text-align: center;

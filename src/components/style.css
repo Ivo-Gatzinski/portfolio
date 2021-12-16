@@ -329,6 +329,12 @@ label {
     margin-right: 5px;
   }
 
+  .viewer {
+    margin: 2%;
+    width: 96%;
+    height: 480px;
+  }
+
   form {
     display: grid;
     grid-template-rows: 1fr;
@@ -442,6 +448,12 @@ label {
 
   .nav button {
     font-size: 150%;
+  }
+
+  .viewer {
+    margin-left: 20%;
+    height: 600px;
+    width: 60%;
   }
 
   .bio {

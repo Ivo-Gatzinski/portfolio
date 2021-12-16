@@ -17,8 +17,9 @@ export default function Resume() {
           </a>
         </p>
       </div>
-      
-      
+      <div >
+      <iframe src={`${resume}#view=fitH`} title="Resume" className="viewer"/>
+      </div>
     </div>
   );
 }

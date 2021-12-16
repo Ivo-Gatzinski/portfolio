@@ -50,7 +50,7 @@ function App() {
                 className={linkClassNames("skills")}
                 onClick={() => setCurrentPage("skills")}
               >
-                Skills <i class="fas fa-cog"></i>
+                Skills <i className="fas fa-cog"></i>
               </button>
               <button
                 className={linkClassNames("resume")}

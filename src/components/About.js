@@ -12,10 +12,14 @@ export default function About() {
         </figure>
         <p className="bio">
             Multilingual, multicultural, multidisciplinary Full Stack Web
-            Developer with three years of experience. Collaborative, attentive, and compassionate listener who
+            Developer with three years of experience. 
+            Recently earned Certificate in Full Stack Web Design at UCSD with a grade of A. 
+            Ennhanced my skills in responsive web design using MERN stack with GraphQL by leading an agile team of developers.
+            Collaborative, attentive, and compassionate listener who
             meets concrete needs of diverse viewpoints. Sensitive to others’
             perspectives, having lived in six countries on four continents.
-            Fluent in Bulgarian and Russian; moderate French; basic Japanese. Earned Certificate in Full Stack Web Design at UCSD with a grade of A.
+            Fluent in Bulgarian and Russian; moderate French; basic Japanese. 
+            My professional background in both technology and education, combined with a passion to solve problems, would make me a strong addition to any organization.
           </p>
       </div>
     </section>

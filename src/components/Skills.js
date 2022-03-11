@@ -49,6 +49,12 @@ export default function Skills() {
                     src="https://img.shields.io/badge/-GraphQL-navy?style=flat&logo=graphql&logoColor=magenta"
                   ></img>
                 </li>
+                <li>
+                  <img
+                    alt="Thymeleaf"
+                    src="https://img.shields.io/badge/-Thymeleaf-navy?style=flat&logo=Thymeleaf"
+                  ></img>
+                </li>
               </ul>
             </div>
             <div className="backend">
@@ -88,6 +94,12 @@ export default function Skills() {
                   <img
                     alt="Express.js"
                     src="https://img.shields.io/badge/-Express.js-navy?style=flat&logo=express"
+                  ></img>
+                </li>
+                <li>
+                  <img
+                    alt="JAVA"
+                    src="https://img.shields.io/badge/-JAVA Spring-navy?style=flat&logo=Spring"
                   ></img>
                 </li>
               </ul>

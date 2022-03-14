@@ -14,7 +14,7 @@ export default function About() {
             Multilingual, multicultural, multidisciplinary Full Stack Web
             Developer with three years of experience. 
             Recently earned Certificate in Full Stack Web Design at UCSD with a grade of A. 
-            Ennhanced my skills in responsive web design using MERN stack with GraphQL by leading an agile team of developers.
+            Enhanced my skills in responsive web design using MERN stack with GraphQL by leading an agile team of developers.
             Collaborative, attentive, and compassionate listener who
             meets concrete needs of diverse viewpoints. Sensitive to others’
             perspectives, having lived in six countries on four continents.

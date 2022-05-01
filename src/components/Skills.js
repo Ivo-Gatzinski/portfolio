@@ -74,6 +74,12 @@ export default function Skills() {
                 </li>
                 <li>
                   <img
+                    alt="Mongoose.js"
+                    src="https://img.shields.io/badge/-Mongoose-navy?style=flat&logo=Mongoose&logoColor=turquoise"
+                  ></img>
+                </li>
+                <li>
+                  <img
                     alt="GraphQL"
                     src="https://img.shields.io/badge/-GraphQL-navy?style=flat&logo=graphql&logoColor=magenta"
                   ></img>

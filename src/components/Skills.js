@@ -102,6 +102,12 @@ export default function Skills() {
                     src="https://img.shields.io/badge/-JAVA Spring-navy?style=flat&logo=Spring"
                   ></img>
                 </li>
+                <li>
+                  <img
+                    alt="Python"
+                    src="https://img.shields.io/badge/-Python-navy?style=flat&logo=Python"
+                  ></img>
+                </li>
               </ul>
             </div>
           </div>

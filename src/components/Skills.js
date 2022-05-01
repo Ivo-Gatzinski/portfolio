@@ -86,6 +86,12 @@ export default function Skills() {
                 </li>
                 <li>
                   <img
+                    alt="Sequelize"
+                    src="https://img.shields.io/badge/-Sequelize.js-navy?style=flat&logo=sequelize&logoColor=white"
+                  ></img>
+                </li>
+                <li>
+                  <img
                     alt="Node.js"
                     src="https://img.shields.io/badge/-Node.js-navy?style=flat&logo=node.js&logoColor=yellow"
                   ></img>
@@ -105,7 +111,7 @@ export default function Skills() {
                 <li>
                   <img
                     alt="Python"
-                    src="https://img.shields.io/badge/-Python-navy?style=flat&logo=Python"
+                    src="https://img.shields.io/badge/-Python-navy?style=flat&logo=Python&logoColor=yellow"
                   ></img>
                 </li>
               </ul>

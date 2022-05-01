@@ -100,12 +100,6 @@ p {
   width: 25%;
 }
 
-.bio {
-  display: flex;
-  padding: 10px;
-  font-size: 125%;
-}
-
 .card {
   background-size: 100%;
   filter: none;
@@ -352,6 +346,10 @@ label {
     height: 480px;
   }
 
+  .bio {
+    font-size: 100%;
+  }
+
   form {
     display: grid;
     grid-template-rows: 1fr;
@@ -440,9 +438,6 @@ label {
     margin: var(--mini-pad);
   }
 
-  .bio {
-    font-size: 100%;
-  }
 }
 
 @media screen and (min-width: 765px) {
@@ -476,8 +471,7 @@ label {
   .bio {
     display: flex;
     flex-wrap: flex;
-    align-items: center;
-    font-size: 125%;
+    align-items: top;
   }
 
   .bio_pic {
@@ -565,6 +559,10 @@ label {
   .about {
     margin-left: 18.5%;
     margin-right: 20%;
+  }
+
+  .bio {
+    font-size: 125%;
   }
 
   #resume {

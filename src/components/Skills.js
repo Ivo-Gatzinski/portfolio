@@ -10,7 +10,6 @@ export default function Skills() {
         <div className="resume">
           <div className="skills">
             <div className="frontend">
-              <p className="h2">Front End</p>
               <ul>
                 <li>
                   <img
@@ -70,7 +69,6 @@ export default function Skills() {
               </ul>
             </div>
             <div className="backend">
-              <p className="h2">Back End</p>
               <ul>
                 <li>
                   <img

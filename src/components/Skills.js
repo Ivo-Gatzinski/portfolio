@@ -22,13 +22,19 @@ export default function Skills() {
                 <li>
                   <img
                     alt="CSS"
-                    src="https://img.shields.io/badge/-CSS-navy?style=flat&logo=css3&logoColor=turquoise"
+                    src="https://img.shields.io/badge/-CSS-navy?style=flat&logo=css3&logoColor=red"
                   ></img>
                 </li>
                 <li>
                   <img
-                    alt="JavaScript"
-                    src="https://img.shields.io/badge/-JavaScript-navy?style=flat&logo=javascript"
+                    alt="Bootstrap"
+                    src="https://img.shields.io/badge/-Bootstrap-navy?style=flat&logo=bootstrap&logoColor=turquoise"
+                  ></img>
+                </li>
+                <li>
+                  <img
+                    alt="HTML5"
+                    src="https://img.shields.io/badge/-HTML5-navy?style=flat&logo=HTML5&logoColor=brightgreen"
                   ></img>
                 </li>
                 <li>
@@ -53,6 +59,12 @@ export default function Skills() {
                   <img
                     alt="Thymeleaf"
                     src="https://img.shields.io/badge/-Thymeleaf-navy?style=flat&logo=Thymeleaf"
+                  ></img>
+                </li>
+                <li>
+                  <img
+                    alt="JavaScript"
+                    src="https://img.shields.io/badge/-JavaScript-navy?style=flat&logo=javascript"
                   ></img>
                 </li>
               </ul>
@@ -86,26 +98,26 @@ export default function Skills() {
                 </li>
                 <li>
                   <img
+                    alt="Express.js"
+                    src="https://img.shields.io/badge/-Express.js-navy?style=flat&logo=express"
+                  ></img>
+                </li>
+                <li>
+                  <img
+                    alt="DynamoDB"
+                    src="https://img.shields.io/badge/-DynamoDB-navy?style=flat&logo=Amazon&logoColor=orange"
+                  ></img>
+                </li>
+                <li>
+                  <img
                     alt="GraphQL"
                     src="https://img.shields.io/badge/-GraphQL-navy?style=flat&logo=graphql&logoColor=magenta"
                   ></img>
                 </li>
                 <li>
                   <img
-                    alt="Apollo"
-                    src="https://img.shields.io/badge/-Apollo-navy?style=flat&logo=apollographql&logoColor=red"
-                  ></img>
-                </li>
-                <li>
-                  <img
                     alt="Node.js"
                     src="https://img.shields.io/badge/-Node.js-navy?style=flat&logo=node.js&logoColor=yellow"
-                  ></img>
-                </li>
-                <li>
-                  <img
-                    alt="Express.js"
-                    src="https://img.shields.io/badge/-Express.js-navy?style=flat&logo=express"
                   ></img>
                 </li>
                 <li>

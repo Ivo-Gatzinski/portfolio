@@ -68,6 +68,12 @@ export default function Skills() {
                 </li>
                 <li>
                   <img
+                    alt="Sequelize"
+                    src="https://img.shields.io/badge/-Sequelize.js-navy?style=flat&logo=sequelize&logoColor=white"
+                  ></img>
+                </li>
+                <li>
+                  <img
                     alt="MongoDB"
                     src="https://img.shields.io/badge/-MongoDB-navy?style=flat&logo=MongoDB&logoColor=brightgreen"
                   ></img>
@@ -75,7 +81,7 @@ export default function Skills() {
                 <li>
                   <img
                     alt="Mongoose.js"
-                    src="https://img.shields.io/badge/-Mongoose-navy?style=flat&logo=Mongoose&logoColor=turquoise"
+                    src="https://img.shields.io/badge/-Mongoose.js-navy?style=flat&logo=MongoDB&logoColor=turquoise"
                   ></img>
                 </li>
                 <li>
@@ -88,12 +94,6 @@ export default function Skills() {
                   <img
                     alt="Apollo"
                     src="https://img.shields.io/badge/-Apollo-navy?style=flat&logo=apollographql&logoColor=red"
-                  ></img>
-                </li>
-                <li>
-                  <img
-                    alt="Sequelize"
-                    src="https://img.shields.io/badge/-Sequelize.js-navy?style=flat&logo=sequelize&logoColor=white"
                   ></img>
                 </li>
                 <li>

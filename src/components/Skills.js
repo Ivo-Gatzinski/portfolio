@@ -15,7 +15,7 @@ export default function Skills() {
                   <img
                     alt="react"
                     src="https://img.shields.io/badge/-
-                    React.js-navy?style=flat&logo=react"
+                    React-navy?style=flat&logo=react"
                   ></img>
                 </li>
                 <li>
@@ -39,7 +39,7 @@ export default function Skills() {
                 <li>
                   <img
                     alt="Handlebars"
-                    src="https://img.shields.io/badge/-Handlebars.js-navy?style=flat&logo=handlebars.js&logoColor=orange"
+                    src="https://img.shields.io/badge/-Handlebars-navy?style=flat&logo=handlebars.js&logoColor=orange"
                   ></img>
                 </li>
                 <li>
@@ -79,7 +79,7 @@ export default function Skills() {
                 <li>
                   <img
                     alt="Sequelize"
-                    src="https://img.shields.io/badge/-Sequelize.js-navy?style=flat&logo=sequelize&logoColor=white"
+                    src="https://img.shields.io/badge/-Sequelize-navy?style=flat&logo=sequelize&logoColor=white"
                   ></img>
                 </li>
                 <li>
@@ -90,14 +90,14 @@ export default function Skills() {
                 </li>
                 <li>
                   <img
-                    alt="Mongoose.js"
-                    src="https://img.shields.io/badge/-Mongoose.js-navy?style=flat&logo=MongoDB&logoColor=turquoise"
+                    alt="Mongoose"
+                    src="https://img.shields.io/badge/-Mongoose-navy?style=flat&logo=MongoDB&logoColor=turquoise"
                   ></img>
                 </li>
                 <li>
                   <img
-                    alt="Express.js"
-                    src="https://img.shields.io/badge/-Express.js-navy?style=flat&logo=express"
+                    alt="Express"
+                    src="https://img.shields.io/badge/-Express-navy?style=flat&logo=express"
                   ></img>
                 </li>
                 <li>
@@ -114,8 +114,8 @@ export default function Skills() {
                 </li>
                 <li>
                   <img
-                    alt="Node.js"
-                    src="https://img.shields.io/badge/-Node.js-navy?style=flat&logo=node.js&logoColor=yellow"
+                    alt="Node"
+                    src="https://img.shields.io/badge/-Node-navy?style=flat&logo=node.js&logoColor=yellow"
                   ></img>
                 </li>
                 <li>

@@ -56,14 +56,26 @@ export default function Skills() {
                 </li>
                 <li>
                   <img
-                    alt="Thymeleaf"
-                    src="https://img.shields.io/badge/-Thymeleaf-navy?style=flat&logo=Thymeleaf"
+                    alt="JavaScript"
+                    src="https://img.shields.io/badge/-JavaScript-navy?style=flat&logo=javascript"
                   ></img>
                 </li>
                 <li>
                   <img
-                    alt="JavaScript"
-                    src="https://img.shields.io/badge/-JavaScript-navy?style=flat&logo=javascript"
+                    alt="Thymeleaf"
+                    src="https://img.shields.io/badge/-Thymeleaf-navy?style=flat&logo=Thymeleaf&logoColor=brightgreen"
+                  ></img>
+                </li>
+                <li>
+                  <img
+                    alt="AWS"
+                    src="https://img.shields.io/badge/-AWS-navy?style=flat&logo=Amazon&logoColor=red"
+                  ></img>
+                </li>
+                <li>
+                  <img
+                    alt="C♯"
+                    src="https://img.shields.io/badge/-♯-navy?style=flat&logo=C&logoColor=white"
                   ></img>
                 </li>
               </ul>
@@ -79,7 +91,7 @@ export default function Skills() {
                 <li>
                   <img
                     alt="Sequelize"
-                    src="https://img.shields.io/badge/-Sequelize-navy?style=flat&logo=sequelize&logoColor=white"
+                    src="https://img.shields.io/badge/-Sequelize-navy?style=flat&logo=sequelize&logoColor=yellow"
                   ></img>
                 </li>
                 <li>
@@ -121,13 +133,19 @@ export default function Skills() {
                 <li>
                   <img
                     alt="JAVA"
-                    src="https://img.shields.io/badge/-JAVA Spring-navy?style=flat&logo=Spring"
+                    src="https://img.shields.io/badge/-JAVA Spring-navy?style=flat&logo=Spring&logoColor=brightgreen"
                   ></img>
                 </li>
                 <li>
                   <img
                     alt="Python"
-                    src="https://img.shields.io/badge/-Python-navy?style=flat&logo=Python&logoColor=yellow"
+                    src="https://img.shields.io/badge/-Python-navy?style=flat&logo=Python&logoColor=skyblue"
+                  ></img>
+                </li>
+                <li>
+                  <img
+                    alt="C#"
+                    src="https://img.shields.io/badge/-ASP.NET-navy?style=flat&logo=.NET"
                   ></img>
                 </li>
               </ul>

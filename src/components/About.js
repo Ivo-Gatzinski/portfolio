@@ -21,7 +21,7 @@ export default function About() {
             My professional background in both technology and education, combined with a passion to solve problems, would make me a strong addition to any organization.
           </p>
       </div>
-      <div className="aphorisms"><iframe title="aphorisms" src="https://www.dgmlive.com/#app-body"></iframe></div>
+      <div className="aphorisms"><iframe scrolling="no" clickable="no" title="aphorisms" src="https://www.dgmlive.com/#app-body"></iframe></div>
     </section>
   );
 }

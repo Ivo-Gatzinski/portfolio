@@ -29,6 +29,10 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 25px;
+}
+.aphorisms::after {
+  content: "- Robert Fripp";
 }
 
 .error {
@@ -39,7 +43,8 @@ p {
 
 iframe {
   width: 100%;
-  height: 124px;
+  height: 60px;
+  margin-bottom: 25px;
 }
 
 .nav .current {
@@ -93,7 +98,7 @@ p {
 .about {
   color: var(--dark-blue);
   text-align: left;
-  background-color: transparent;
+  background-color: rgb(241, 240, 236);
   border-radius: 10px;
   padding: 5px;
   margin-top: 25px;

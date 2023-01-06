@@ -16,7 +16,7 @@ export default function Samples() {
                 Healthy Pets: MERN Stack with GraphQL
               </a>
             </h3>
-            <p>Easily communicate with your Vet. 
+            <p>UNDER CONSTRUCTION  🚧. 
             
               <a
                 target="_blank"
@@ -62,7 +62,7 @@ export default function Samples() {
                 Adopt a Furry Buddy: JavaScript, Server-Side APIs
               </a>
             </h3>
-            <p>Find a furry buddy to adopt.
+            <p>UNDER CONSTRUCTION  🚧.
               <a
                 target="_blank"
                 rel="noreferrer"

@@ -57,6 +57,11 @@ p {
   font-size: 125%;
 }
 
+#mastodon {
+
+  display: none;
+}
+
 .h1 {
   background-color: none;
   color: green;

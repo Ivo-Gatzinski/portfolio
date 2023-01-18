@@ -22,6 +22,8 @@ export default function About() {
           </p>
       </div>
       <div className="aphorisms"><iframe scrolling="no" clickable="no" title="aphorisms" src="https://www.dgmlive.com/#app-body"></iframe></div>
+    <a rel="me" id="mastodon" href="https://toad.social/@IvoGatzinski">Mastodon</a>
     </section>
+    
   );
 }

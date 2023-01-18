@@ -41,6 +41,15 @@ export default function Contact() {
             Twitter <i className="fab fa-twitter"></i>
           </a>
         </div>
+        <div className="info-item">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://toad.social/@IvoGatzinski"
+          >
+            Mastodon <i className="fab fa-mastodon"></i>
+          </a>
+        </div>
       </div>
     </section>
   );

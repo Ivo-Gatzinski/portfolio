@@ -22,9 +22,4 @@ function getAphorism() {
     .debug(console.log);
 }
 
-for (let index = 0; index < 101; index++) {
-  const interval = setInterval(getAphorism, 10000)
-  if (index === 100) {
-    clearInterval(interval);
-  }
-}
+setInterval(getAphorism, 10000);

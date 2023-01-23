@@ -32,9 +32,17 @@ p {
   margin: 25px;
   font-size: .7rem;
 }
-.aphorisms::after {
-  content: "- Robert Fripp";
+.fripp {
+  margin-left: 25px;
   font-size: .7rem;
+  color: var(--dark-blue);
+}
+
+.fripp:hover {
+  color: green;
+  border: none;
+  cursor: pointer;
+  border-bottom: green solid var(--micro-pad);
 }
 
 .error {

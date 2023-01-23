@@ -22,7 +22,7 @@ export default function About() {
             My professional background in both technology and education, combined with a passion to solve problems, would make me a strong addition to any organization.
           </p>
       </div>
-      <div className="aphorisms"><p>{aphorisms[Math.floor(Math.random() * aphorisms.length)]}</p></div>
+      <div className="aphorisms"><p>{aphorisms[Math.floor(Math.random() * aphorisms.length)]}</p><p><a className="fripp" href="https://www.dgmlive.com/" target="_blank" rel="noreferrer">- Robert Fripp</a></p></div>
     
     </section>
     

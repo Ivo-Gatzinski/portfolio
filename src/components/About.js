@@ -1,5 +1,6 @@
 import React from "react";
 import pic from "./images/bio_pic.png";
+import aphorisms from "../utils/aphorisms.json";
 
 export default function About() {
   return (
@@ -21,7 +22,7 @@ export default function About() {
             My professional background in both technology and education, combined with a passion to solve problems, would make me a strong addition to any organization.
           </p>
       </div>
-      <div name="aphorisms" className="aphorisms"><iframe scrolling="no" clickable="no" title="aphorisms" src="https://www.dgmlive.com/#app-body"></iframe></div>
+      <div className="aphorisms"><p>{aphorisms[Math.floor(Math.random() * aphorisms.length)]}</p></div>
     
     </section>
     

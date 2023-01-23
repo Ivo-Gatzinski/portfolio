@@ -30,9 +30,11 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   margin: 25px;
+  font-size: .7rem;
 }
 .aphorisms::after {
   content: "- Robert Fripp";
+  font-size: .7rem;
 }
 
 .error {

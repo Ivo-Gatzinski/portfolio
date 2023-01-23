@@ -375,7 +375,7 @@ label {
   }
 
   .bio {
-    font-size: 100%;
+    font-size: 1rem;
   }
 
   form {
@@ -523,7 +523,7 @@ label {
   }
 
   ul li {
-    font-size: 100%;
+    font-size: 1rem;
     list-style: none;
     list-style-position: inside;
   }
@@ -559,7 +559,7 @@ label {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    font-size: 125%;
+    font-size: 1rem;
   }
 
   .samples {
@@ -590,7 +590,7 @@ label {
   }
 
   .bio {
-    font-size: 125%;
+    font-size: 1rem;
   }
 
   #resume {
@@ -609,7 +609,7 @@ label {
 
   .info-item {
     padding: 20px;
-    font-size: 125%;
+    font-size: 1rem;
   }
   .samples {
     display: flex;
@@ -664,7 +664,7 @@ label {
   }
 
   ul li {
-    font-size: 100%;
+    font-size: 1rem;
     list-style: none;
     transform: scale(1.5, 1.5);
     padding-top: 20px;

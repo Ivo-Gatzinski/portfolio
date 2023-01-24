@@ -19,7 +19,7 @@ export default function About() {
             meets concrete needs of diverse viewpoints. Sensitive to others'
             perspectives, having lived in six countries on four continents.
             Fluent in Bulgarian and Russian; moderate French; basic Japanese. 
-            My professional background in both technology and education, combined with a passion to solve problems, would make me a strong addition to any organization.
+            My professional background in both technology and education, combined with my passion to solve problems and to instruct <a className="golem" href="https://en.wikipedia.org/wiki/Golem">Golems</a>, would make me a strong addition to any organization.
           </p>
       </div>
       <div className="aphorisms"><p>{aphorisms[Math.floor(Math.random() * aphorisms.length)]}</p><p><a className="fripp" href="https://www.dgmlive.com/" target="_blank" rel="noreferrer">- Robert Fripp</a></p></div>

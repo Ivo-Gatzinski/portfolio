@@ -45,6 +45,13 @@ p {
   border-bottom: green solid var(--micro-pad);
 }
 
+.golem:hover {
+  color: green;
+  border: none;
+  cursor: pointer;
+  border-bottom: green solid var(--micro-pad);
+}
+
 .error {
   color: red;
   text-align: center;

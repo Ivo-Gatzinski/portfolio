@@ -44,7 +44,7 @@ export default function Contact() {
         <div className="info-item">
           <a
             target="_blank"
-            rel="me"
+            rel="noreferrer"
             href="https://toad.social/@IvoGatzinski"
           >
             Mastodon <i className="fab fa-mastodon"></i>

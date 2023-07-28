@@ -60,7 +60,7 @@ export default function Skills() {
                     src="https://img.shields.io/badge/-JavaScript-navy?style=flat&logo=javascript"
                   ></img>
                 </li>
-                <li>
+                {/* <li>
                   <img
                     alt="Thymeleaf"
                     src="https://img.shields.io/badge/-Thymeleaf-navy?style=flat&logo=Thymeleaf&logoColor=brightgreen"
@@ -77,7 +77,7 @@ export default function Skills() {
                     alt="C♯"
                     src="https://img.shields.io/badge/-♯-navy?style=flat&logo=C&logoColor=white"
                   ></img>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className="backend">
@@ -112,12 +112,12 @@ export default function Skills() {
                     src="https://img.shields.io/badge/-Express-navy?style=flat&logo=express"
                   ></img>
                 </li>
-                <li>
+                {/* <li>
                   <img
                     alt="DynamoDB"
                     src="https://img.shields.io/badge/-DynamoDB-navy?style=flat&logo=Amazon&logoColor=orange"
                   ></img>
-                </li>
+                </li> */}
                 <li>
                   <img
                     alt="GraphQL"
@@ -130,7 +130,7 @@ export default function Skills() {
                     src="https://img.shields.io/badge/-Node-navy?style=flat&logo=node.js&logoColor=yellow"
                   ></img>
                 </li>
-                <li>
+                {/* <li>
                   <img
                     alt="JAVA"
                     src="https://img.shields.io/badge/-JAVA Spring-navy?style=flat&logo=Spring&logoColor=brightgreen"
@@ -147,7 +147,7 @@ export default function Skills() {
                     alt="C#"
                     src="https://img.shields.io/badge/-ASP.NET-navy?style=flat&logo=.NET"
                   ></img>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

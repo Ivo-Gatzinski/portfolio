@@ -1,4 +1,5 @@
 import React from "react";
+import aphorisms from "../utils/aphorisms.json";
 
 export default function Contact() {
   return (
@@ -51,6 +52,7 @@ export default function Contact() {
           </a>
         </div>
       </div>
+      <div className="aphorisms" id="aphorisms" style={{padding: "10px"}}><p>{aphorisms[Math.floor(Math.random() * aphorisms.length)]}</p><p><a className="fripp" href="https://www.dgmlive.com/" target="_blank" rel="noreferrer">- Robert Fripp</a></p></div>
     </section>
   );
 }

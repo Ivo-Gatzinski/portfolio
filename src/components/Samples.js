@@ -39,7 +39,7 @@ export default function Samples() {
                 Magic 8 Ball: JavaScript, MySQL, Handlebars, MDBootstrap
               </a>
             </h3>
-            <p>Combat decision fatigue with this easy app! <br>UNDER CONSTRUCTION  🚧</br>.
+            <p>UNDER CONSTRUCTION  🚧.
           
               <a
                 target="_blank"
@@ -84,7 +84,7 @@ export default function Samples() {
                 Book Search: MERN Stack with GraphQL
               </a>
             </h3>
-            <p>Find and save your favorite books.<br>UNDER CONSTRUCTION  🚧</br>.
+            <p>UNDER CONSTRUCTION  🚧.
               <a
                 target="_blank"
                 rel="noreferrer"

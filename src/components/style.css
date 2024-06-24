@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap"); */
 
 html {
   scroll-behavior: smooth;
@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  font-family: "Syne Mono", monospace;
+  font-family: monospace;
   background-image: url("./images/skyPaint.jpg");
   background-size: cover;
   background-position: bottom;

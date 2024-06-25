@@ -1,3 +1,6 @@
 # https://www.robotstxt.org/robotstxt.html
-User-agent: *
-Disallow:
+User-agent: GPTBot
+User-agent: GPTBot-User
+User-agent: ChatGPT
+User-agent: ChatGPT-User
+Disallow: /

@@ -11,7 +11,7 @@ export default function Samples() {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://healthy-pets-copypaste.herokuapp.com/"
+                href="https://healthy-pets-7vdr.onrender.com/"
               >
                 Healthy Pets: MERN Stack with GraphQL
               </a>
